@@ -1,0 +1,1043 @@
+feature_title,feature_discription,release_month
+"Host or cohost can easily identify users to admit or remove in the 
+secure lobby","Hosts or cohosts are easily able to identify a participant joining a meeting as Internal to their 
+organization, External to their organization, or Unverified where the user isn't authenticated by 
+Webex and therefore can’t be verified.
+Notification of a participant waiting in the lobby is now more prominent and isn’t hidden in the 
+Participant List.
+Hosts or cohosts are able to remove a participant from the lobby. They can also select an entire 
+group and admit or remove those participants.",1
+Customize your email templates for webinars,"As a host, you can customize the templates you use to send the following emails to panelists 
+and attendees:
+ invitations
+ reminders
+ thank yous
+cancellations
+You can also choose whether to use HTML or Plain text for your email format and even save 
+the template to your template library for future use.
+Hosts and panelists can schedule reminders but only the host can enable two additional 
+reminders for webinars with up to 10,000 participants. Reminders are disabled for webinars with 
+25,000 participants or more.
+When you schedule a webinar, you see separate tabs for panelists, attendees, and hosts, 
+making it easy to copy content and send it to your respective audience.",1
+Administrators can manage images used in virtual background,"This feature includes the following administrator capabilities:
+ Enabling virtual background features at the organization level.
+Customizing options for Webex default virtual backgrounds, to use administrator 
+uploaded virtual backgrounds, or allow users to use their own virtual background 
+images.
+ Allowing guest users to use administrator uploaded images as virtual backgrounds.
+ Cascading virtual background options to each site in control hub.
+Overriding virtual background configuration for each Webex site.
+ Uploading a maximum of 10 approved images as virtual background images.
+The administrator can flexibly configure various scenarios on different meeting sites and 
+different services, such as Webex Meetings, Webex Calling, and Webex Messaging.
+In the Webex Meetings app, users can use different virtual backgrounds according to their 
+administrator’s configuration.",1
+Improved Personal Room security,"s part of our drive to provide you with secure meetings, we’re letting you know about some 
+security improvements that we’re making to your Webex site.
+The default experience today is that anyone joining your Personal Room can jump into your 
+meeting right away, without having to wait in the lobby.
+With this update, we're making your Personal Room meetings more secure. Guests who try to 
+join your Personal Room automatically wait in your lobby until you admit them.
+In conjunction with these security changes, we’re also making changes to enhance the 
+management of users in the lobby and in the meeting itself.
+Improved lobby notification
+We’ve improved the notifications for when someone joins the lobby. So they’re more 
+noticeable to hosts and cohosts, even if they’re sharing content. The notifications are 
+dynamic and update if additional people join the lobby.
+Removing email prompt during guest join flow
+Any Webex meeting attendee, joining a meeting hosted by a free online account holder, 
+wouldn’t be prompted to input the email during a guest or unauthenticated join flow.",1
+Closed captions selection (on or off) automatically remembered,"Webex remembers your closed captioning selection for your next meeting or event. This 
+behavior replaces the preference setting to automatically enable closed captions, to be removed 
+in 42.2. This change applies to sites that have closed captions separated from the Webex 
+Assistant.
+This feature has select customer availability for Webex for Government.",1
+"Host or cohost can easily identify users to admit or remove in the 
+secure lobby","Hosts or cohosts are easily able to identify a participant joining a meeting as Internal to their 
+organization, External to their organization, or Unverified where the user is not authenticated by 
+Webex and therefore can’t be verified.
+Notification of a participant waiting in the lobby is now more prominent and isn’t hidden in the 
+Participant List.
+Hosts or cohosts are able to remove a participant from the lobby. They can also select an entire 
+group and admit or remove those participants.",1
+Hide duplicated tooltips,"The tooltip and label name are duplicated in a few controls. This feature is to enhance the user's 
+experience to remove a few redundant tooltips if they are duplicated with the text name.",1
+Align simultaneous interpretation in webinar with Webex Meeting,"Enable simultaneous interpretation and manage available languages for event management in 
+Webex Meetings or webinars. Hosts are responsible for enabling simultaneous interpretation for 
+the meetings and webinars that they schedule, and for managing the interpretation during the 
+meeting. They can preassign interpreters or add new language channels and interpreters to 
+meet the needs of more attendees.
+Limitation: If simultaneous interpretation is turned on, practice sessions can’t be started. This 
+limitation will be addressed in a future update.",1
+Webex recordings quick Forward and Rewind buttons,"While viewing your Webex recordings you can now choose to skip ahead or move backwards 
+easily using the rewind and forward buttons. These buttons help you move forward or 
+backwards in 10 second increments.",1
+Web app: Remove Background Noise,"Similar to the desktop app, you now have the option to remove background noise when 
+choosing ""use computer for audio"" in the web app, helping your voice to sound clear and 
+filtering out noise from your surroundings. 
+Sometimes, your network or firewall settings may block access to this feature, 
+depending on the port configuration.
+This feature is turned off by default. Contact your Customer Service Manager at Webex 
+to enable this feature.",1
+Web App: Pop-out panels from the meeting window,"Similar to the desktop app, you can now pop-out panels from the meeting window into a 
+separate browser window, in the web app. This makes it easy to float multiple panels, scale 
+them for a closer look, or even move them to another monitor.
+Click on the pop-out icon to float the panel in its own window. Once floating, you can pop the 
+panel back into the meeting window at any time, and it snaps right back into place. If you close 
+the floating panel, you're able to reopen it from the meeting window. You can even use the 
+panel buttons in the meeting window to close any floating panels.",1
+"Block all remote-control features for users when joining external 
+meetings","With this update, administrators are provided with a button on control hub at organization level 
+to block all remote-control access for users joining external meetings (meetings hosted on sites 
+outside of your company). The block includes desktop remote control, application remote 
+control, and web browser remote control in meetings.
+When this feature is blocked, the user and any of their meeting participants trying to initiate 
+remote control see a message window instead.
+This block is applicable to users joining meetings from their mobile (iOS) or desktop (Windows 
+and Mac) apps.",1
+"Receive Webex Webhooks notifications when meeting transcripts 
+are ready","Webhooks are a great way to provide notifications. Customers can use these webhooks to 
+execute specific business logic based on the status provided when the webhooks are received.
+In this update, we’re providing the ability to receive a webhook once meetings transcripts are 
+ready. This helps customers to satisfy use cases for sending out emails to meeting participants 
+to inform them about the transcription readiness.
+This feature is not available for Webex for Government.",1
+"New virtual backgrounds, both static and animated","Webex is updating its default library of virtual backgrounds. In addition to the most frequently 
+used, we added a few new backgrounds, including two animated ones. Users can still upload 
+their own as desired.
+Animated virtual backgrounds are not available when starting or joining a meeting from Webex 
+App.",2
+Webinar materials support,"Hosts can upload webinar materials such as Microsoft PowerPoint presentations, PDF, 
+Microsoft Word documents, JPG, and PNG files in the webinar information page. Attendees can 
+download material in the webinar information page.
+When you schedule a webinar, you see separate tabs for panelists, attendees, and hosts, 
+making it easy to copy content and send it to your respective audience.",2
+Polling support in webinar,"In addition to polls using Slido, you can now start polls in webinars from the Polling panel, 
+similar to Webex Meetings. Use polls to engage your participants, even if Slido is not available 
+in your webinar.
+To pre-configure the polling questions the host can start any webinar to create questions and 
+save the polling file in .atp format. During the webinar, the host can quickly add the questions by 
+uploading the previously saved file.",2
+Background PiP (picture-in-picture) support for iPad users,"The Webex Meetings mobile app now supports background PiP (picture-in-picture) for iPad 
+users.
+PiP support shrinks the whole meeting window to a small rectangular window that appears over 
+your iPad home screen and even over other apps.
+For example, iPad users can browse their emails or web browser while on their iPad watching a 
+meeting window outside the Meetings app. This is done using the picture-in-picture window that 
+is positioned in one corner of the screen.",2
+"Meetings VDI to extend maximum video ports from 3x3 to 5x5 in 
+grid view","Webex Meetings VDI to extend the maximum video ports from 3x3 to 5x5 in grid view mode. 
+Your administrator controls the maximum video ports from Webex Control Hub.
+To enable the feature, add the following registry key and value to the HVD registry (not thin 
+client):
+Registry path: Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\CiscoWebex
+Key Name: WebexVDIUnlimitVideoPortPolicy
+Type: DWORD
+Value: 1",2
+Allow host and cohost to change registration form,"Hosts and cohosts can change the registration form - registrant number, registration ID, and 
+approval rules option even after someone has registered for the webinar.",2
+Maximum number of webinar registrants and attendees,"In this update, users who have the 10,000, 25,000, 50,000, and 100,000 license plans can 
+accept registration more than their current license allows. They now can accept 20 percent 
+more of their maximum attendee numbers. For example, if their license is 10,000, they can 
+accept up to 12,000 registrations.
+Users with 1,000, 3,000, and 5,000-license plans remain the same, with a maximum registration 
+of 10,000.",2
+New location for opened embedded apps,"When a user wants to reopen an embedded app, they can open the Apps panel and find the 
+app at the top of the In Meeting list. Previously, it was in the More (...) menu.",2
+Shared Timer app for Webex Meetings and Webex Webinars,"Keep people on track using the new Shared Timer app. Hosts and participants can view and 
+interact with a countdown timer during team collaboration or group activities, helping things to 
+stay on schedule. The meeting host can launch the Shared Timer from the Apps panel, set a 
+timer and share it with other meeting participants. Participants can start, pause, and add more 
+time if the host allows.
+Administrators enable apps using Webex Control Hub.",2
+Google Workspace add-on user interface improvements,"Google Workspace add-on users can toggle between Personal Room and one-time meeting 
+links directly from the meeting settings panel. Default settings are used when a user chooses 
+Webex meeting from the Add video conferencing option menu.",2
+Real-time transcription for 13 spoken languages,"Previously, only English transcription was supported. Now, the host can select transcription for 
+the meeting and webinar in 13 spoken languages, including English (existing), Chinese 
+Mandarin (Simplified and Traditional), Dutch, French, German, Hindi, Italian, Japanese, Korean, 
+Polish, Portuguese, and Spanish. This feature is part of the real-time translation SKU, so the 
+captions for these languages can also be translated to 100+ other languages. With this feature, 
+users can easily communicate in their own language to be more effective, and experience more 
+inclusive, accessible, and engaging meetings across the globe.",2
+Raise hand button has moved to control bar,"We’re moving the Raise hand icon out from the Reactions menu to the control bar. This makes 
+it easier to find and faster to use. ",2
+Automatically hide self-view when video is off,"Now, your self-view will automatically be hidden if you turn off your video. This gives you more 
+screen real-estate to focus on the people you're meeting with.",2
+Enable Sync my Stage for everyone,"Hosts and cohosts can now sync their exact layout of stage for attendees. Previously, when the 
+host or cohost adjusted the size of the window and then selected Sync my stage, the stage 
+content was synced to the attendees, but the window sizes were not synced. In this update, 
+hosts and cohosts can sync the adjusted size of the content to the attendees and the attendees 
+view is the same as the host’s and cohost's view.",2
+End webcast after all content is displayed,"When the webcast stops, attendees continue to see the content until all the content is displayed.
+This feature is not available for Webex for Government.",2
+Web app: Annotation support,"Webex Meetings web app users can now annotate on top of shared content, when the 
+presenter is sharing from the desktop app or the mobile app.",2
+" Anonymize meeting attendee display names (beta – enabled by 
+request)","When enabled, hosts can use of the Keep attendee names private option in the scheduler. 
+This setting assigns an anonymous display name (Participant 1, Participant 2, and so on) to 
+attendees as they join. Attendees can’t see each other’s real names. Only the host or cohost 
+has access to an attendee’s real name.
+This feature is intended for meetings where privacy (anonymity) is required between attendees. 
+For example:
+ Holding a meeting with competing vendors
+Support groups
+ Consultations
+Hosts can request access to these settings.
+Beta Limitations:
+ Video devices don’t support anonymized display names, and therefore if a user joins 
+from a video device, they can see attendees' real names.
+The calendar tool doesn’t support anonymized names. While invitee names are hidden 
+on the meeting detail page, any users currently using the calendar tool see invitees' real 
+names.",2
+Filter for Slido events in Webex panel,"n case you missed the updates that came in December, Slido organization owners and 
+administrators can now filter only their Slido events by clicking the filter icon in the Webex 
+sidebar. The default My own option includes their Slido events, and the All option includes 
+Slido events of all users under the organization.",2
+"Cohosts and panelists can request access to co-administer Slido 
+directly from the Webex sidebar","In case you missed the updates that came in January, if the host added Slido to the Webex 
+Meeting or webinar, cohosts and panelists can request access to the Slido administration panel 
+directly in Webex. Therefore, the host doesn’t have to necessarily invite them as collaborators 
+beforehand using slido.com > Settings > Share access.",2
+No more inappropriate emojis in Q&A and Word-cloud,"The profanity filter for Q&A has been announced earlier, and it is now added to the word-cloud 
+poll.",2
+Speaker labeling and closed captions feed update,"Speaker labels are added in the closed captioning box to further enhance live transcript 
+readability. The closed captions feed behavior is also updated. More lines and up to two final 
+utterances can be shown at once, depending on font size. Previous lines stay on screen, until 
+new spoken lines push the script up.",3
+Introducing people focus (Beta),"In this update we're excited to introduce a new way to view Grid View, that maximizes screen 
+space by using Artificial Intelligence to dynamically crop videos to focus on the individual, rather 
+than their surroundings.
+You’ll get a better face-to-face experience and feel more connected, regardless of how they’re 
+positioned in front of their camera. People focus can be turned on from the Layout menu when 
+in Grid View and can be turned off at any time. Give it a try!",3
+"Q&A, chat, and polling report for webinars","Hosts can download the in-webinar activity report for Q&A, chat, and polling for completed 
+webinars. If Q&A or polling is done using Slido, hosts can find that information in Slido's report. 
+This option is only available for recorded webinars. Webinars in webcast view also supports 
+Q&A, chat, and polling.",3
+Webinars to support breakout sessions,"When the host schedules a webinar, they can preassign panelists to different breakout 
+sessions. Attendees can't be preassigned but they can join breakout sessions by clicking the 
+join link. Hosts can create up to 100 breakout sessions. Each breakout session can host up to 
+1000 attendees.",3
+"Optimize your meetings, webinars, and events for all voices","In meetings, webinars, and events, you can filter out all background noises and enhance the 
+voices of all users picked up by the microphone. The voice of the users that are farther away 
+
+from the microphone are amplified to sound like they are much closer. This is done to create a 
+better and more engaging experience during your meetings and events.
+This feature is only available when you use Use computer audio only.
+You can optimize your audio to prioritize speech before or after you join a meeting or webinar, 
+by doing the following:
+ Click Audio options, click the drop-down arrow under Webex smart audio, and select 
+Optimize for all voices.
+ Click Audio options, click Audio settings, and select Optimize for all voices.
+Once you've selected a Webex smart audio option, the option you selected is set as the default 
+option for your future meetings and events on your site.",3
+Display speaker name in close caption feed,"In order to enhance the clarity for people who are deaf or hard of hearing, we need to provide 
+them with an option to display speaker labeling within the closed caption feed.",3
+Simultaneous interpretation volume balance adjustment,"The volume balance in the simultaneous interpretation feature now shows interpreter on the 
+right side instead of the left, so to hear the interpreter at a higher volume, users can slide the 
+balance to the right.",3
+Optimize audio for your voice,"Similar to desktop, Webex Meetings mobile app users can now enhance their meeting 
+experience using Optimize for My Voice option. You can now suppress all background talkers 
+and noise to allow others to hear you better, by selecting the option to Optimize for My Voice 
+during a meeting by clicking More > Webex Smart Audio. Users can set their preference prior 
+to a meeting by accessing Audio and Video menu in the app setting under the Webex Smart 
+Audio section. The default option is Noise Removal that is enabled (previously, called Remove 
+Background Noise).",3
+"Email notification to users when their meeting recordings are 
+deleted or reassigned","IT administrators can make changes to meeting recordings such as reassigning to a new owner 
+or deleting the recording file based on compliance regulations. In this update, we provide a 
+setting at the site level for the IT administrators to notify the user when such actions take place.
+Users in the following scenarios receive an email notification when this setting is enabled:
+ When the recordings are older than the retention period and they get moved to trash.
+ Site administrators reassigns the recordings to another user.
+Site administrators moves the recording to trash, deletes, or restores it.",3
+Polling support in webinar (Webex for Government updates),"In addition to polls using Slido, you can now start polls in webinars from the Polling panel, 
+similar to Webex Meetings. Use polls to engage your participants, even if Slido is not available 
+in your webinar.
+To pre-configure the polling questions the host can start any webinar to create questions and 
+save the polling file in .atp format. During the webinar, the host can quickly add the questions by 
+uploading the previously saved file.",3
+"Easy to use audio mute state management, recording controls, 
+lock state, and raise hands available on Webex on-premises devices","It’s now possible to accurately reflect the mute status in the meeting participant list for Webex 
+on-premises registered video devices. Previously, when they muted or unmuted themselves, 
+this wouldnt show up in the participant list.
+When the host requests the video device user to unmute, there will not be any visual indications 
+on the video device any more. However, the host can alway verbally ask the user to unmute 
+themselves.
+In addition, when the host turns on or off the ability for participants to unmute themselves, users 
+on video devices then see appropriate messages rendered on their video device.
+When a meeting is setup in the moderated unmute mode, hosts on the Webex App can 
+continue to mute and unmute video device users directly from the app.
+
+As a host on a Webex on-premises registered video device, you can now record meetings using 
+controls on the device interface instead of using DTMF controls, see direct device messages 
+indicating the lock status of a meeting, and can now raise and lower your hand in a meeting 
+using controls on the device interface instead of using DTMF controls.
+With the first tap on the recording control a new recording is started. Tapping on the recording 
+button again stops the current recording.
+In addition, all users on Webex on-premises registered video devices see a recording icon 
+shown on the edge of the screen. When the recording stops, the icon is removed.
+When a meeting is locked, there’s a key icon shown on the edge of the screen to indicate that 
+the meeting is locked. When the meeting is unlocked, the key icon is removed.
+When someone else raises their hand, you see a hand icon displayed on the edge of the 
+screen. When all hands have been lowered by the host, the icon is removed from the screen.",3
+Closed Captions ,"All meeting participants will automatically have closed captions and can turn them on in one 
+click. A captions panel is available when the closed captions feature is turned on. Currently, 
+closed captions will only show English transcription. ",3
+Recording Transcripts,"You can enable the automatic transcription of the audio for all recorded Cisco Webex meetings 
+and events or you can enable the feature for specific users only. The transcripts appear during 
+recording playback. Users can search for text in the transcript to verify what was said, and 
+when. The transcripts are available in English and only support transcribing the English Audio.",3
+Improved toolbar for shared content,"We’ve made interacting with shared content easier by moving the tools (from a fade-out side 
+bar) into a dedicated toolbar above the stage so you can access it at any time.
+You can now see who's sharing content, zoom in or out, open the annotation tools, and more–
+without blocking your view of what's being shared.",4
+"Move Webex Meetings from your desktop to mobile app using a QR 
+code","We are introducing the Move Meeting to Mobile feature where users can scan the QR code 
+using their mobile camera and move their meeting to Webex Meetings mobile app without 
+disrupting or disconnecting the meeting.",4
+Redirect attendee to a URL address after a meeting or webinar,"Host can enter a URL address when they set up the meeting or webinar. Attendees can now be 
+forwarded to a landing page after a meeting or webinar ends. This is a way to direct your 
+audience to a survey, invite to next meeting or webinar, a thank you page, or information on 
+event sponsors. This provides the opportunity to keep the attendee engagement going even 
+after the meeting or webinar has ended.
+This ability doesn’t apply to webinars with webcast view for attendees.
+For security reasons, the domains approved by administrator can be saved here. You can work 
+with your administrator to ensure the domains you need are approved. Otherwise, you'll see an 
+error message when you enter the URL and the URL won’t be saved in your meeting or webinar 
+information page.
+Administration experience
+As site administrators, for security reasons, make sure that you provide a list of domains so that 
+the users can save the URLs containing the domains. Without the approved domains, the users 
+won't be able to save any URL due to security considerations. For example, here are a few 
+domain types for your consideration, survey domains (qualtrics.com, surveymonkey.com, 
+typeform.com, to name a few), and your company's domain(s).
+Site Administration
+1. Go to Site Administration > Common Site Settings.
+2. In the Allow the following URL domain names enter the domain names.
+The URL containing the domains are considered approved so that the users can save them.",4
+New option for high fidelity content sharing,"Optimize for 3D is a new sharing optimization that is available to customers upon request to 
+your Customer Success Manager. This feature uses additional bandwidth to reduce color 
+artifacts when sharing high fidelity 3D models. The increased quality can aid in real-time 
+collaboration for other types of content including Computer Aided Design and Medical Imaging.
+This feature is only supported for Webex Meetings (Windows and Mac) desktop app.
+If any other apps or devices join the meeting, the quality is reduced for all participants to normal 
+levels. The quality is also reduced to normal levels if the meeting is recorded.
+Once enabled, the Optimize for 3D option appears in the drop-down selection on the Share 
+Content dialog. This optimization is not used when Automatically Optimize is selected.
+This feature is turned on by request only.",4
+Ability to share application windows instead of the whole desktop,"This feature optimizes the Webex Meetings content sharing experience while sharing an 
+application. Previously, when the user shared applications it would share the entire screen and 
+mask areas outside of the application window. With this update, the receiving user sees the 
+individual windows of the shared application and not the entire masked desktop screen.",4
+A new Share tab added to Meeting Settings,"In this update we’ve added a new Share tab to the Meeting Settings dialog. This is the new 
+location for all relevant share-based preferences. One new setting is added for the Optimization 
+for shared content. Currently, the Webex Meetings desktop app defaults to Automatically 
+Optimize each time you share. Updating this preference allows you to control the default 
+optimization that appears when the share dialog is opened.
+This feature is to unify fragmented sharing settings into the unified preference to align with the 
+Webex App. It offers a new setting under sharing section to configure the by-default sharing 
+type. This setting could be entered using the new setting icon on the sharing dialog.",4
+Slido open-text polls,"We've made some small, but effective changes to the style of the name labels in the video 
+windows. So that they don't cover up as much, particularly in smaller window sizes. Name label 
+styles are being updated to better align better with the rest of the Webex portfolio for users 
+joining from video devices.
+This visual update applies to on-premises registered video devices, older cloud video devices 
+including SX, MX and DX series video devices, as well as meeting recording and streaming.",4
+New name label style for meetings and devices,"We've made some small, but effective changes to the style of the name labels in the video 
+windows. So that they don't cover up as much, particularly in smaller window sizes. Name label 
+styles are being updated to better align better with the rest of the Webex portfolio for users 
+joining from video devices.
+This visual update applies to on-premises registered video devices, older cloud video devices 
+including SX, MX and DX series video devices, as well as meeting recording and streaming.",4
+"Collaboration restrictions for your company users joining meetings 
+from a Chrome browser","IT administrators can apply all e-compliance controls using templates in Control Hub at user, 
+group, and org level for joining meetings from the Chrome browser.
+IT administrators can add the token to the new Chrome extension, then push the extension to all 
+devices in the organization. All the compliance controls that are applicable to the user joining 
+both internal and external meetings using the Webex Meetings desktop app are now applicable 
+when they join meetings from the Chrome browser as well.",4
+"The administrator can search and delete the obsolete meetings on 
+Control Hub","A host may schedule meetings but for some reason, can’t delete the meetings by themselves. 
+For example, if the host leaves the company, then the administrator should have an ability to 
+find the meetings and delete them. On Control Hub, the administrator can search for the 
+scheduled meetings per the host user's name or meeting number, and then delete them.",4
+Remove bot installation from 1:1 conversation,"Schedule meetings from the Webex messaging extension in channels, group chats, or private 
+chats without having to install the Webex bot. When you schedule a meeting, the meeting 
+information appears in the conversation or chat message for others to join from.",4
+Meetings Quality APIs ,"Meetings Qualities API allows an administrator to pull detailed quality and troubleshooting 
+information about a meeting (both recently occurred and currently occurring). This powerful API 
+allows customers to create their own supportability tools and integration for their organization. ",4
+"French, German, and Spanish spoken language transcription 
+available in closed captions","For meetings with Webex Assistant or closed captions, the host can now select the spoken 
+language (transcription) of the meeting in four different languages: French, German, and 
+Spanish, in addition to the existing English.
+If users wants transcription in more languages, as well as translation capabilities, that can be 
+obtained with the real-time translation add-on, which enables spoken language (transcription) in 
+13 languages, and caption language (translation) in 100+ languages.",5
+Introducing People Focus (Beta),"We're excited to introduce People Focus—a new way to use Grid view, that maximizes screen 
+space by using AI to dynamically crop videos to focus on the individual, rather than their 
+surroundings.
+This gives you a better face-to-face experience with the people you are meeting with, 
+regardless of how the person is positioned in front of their camera, making you feel more 
+connected. Click Layout to turn on People Focus.
+Current limitations in this Beta:
+Video cropping is supported for participants using Mac, Windows, and Board Series 
+Devices.
+Participants using the mobile app, web app, or Desk Series Devices videos don’t support 
+cropping at this time.",5
+Resize the closed captions box,"Users can now change the size of the closed captions (CC) box to show more or fewer lines.
+Administration experience
+As site administrators, for security reasons, make sure that you provide a list of domains so that 
+the users can save the URLs containing the domains. Without the approved domains, the users 
+won't be able to save any URL due to security considerations. For example, here are a few 
+domain types for your consideration, survey domains (qualtrics.com, surveymonkey.com, 
+typeform.com, to name a few), and your company's domain(s).
+
+Site Administration
+1. Go to Site Administration > Common Site Settings.
+2. In the Allow the following URL domain names enter the domain names.
+The URL containing the domains are considered approved so that the users can save them.",5
+Introducing the Webex Meetings for Chrome PWA,"We're excited to announce that the Webex Meetings web app is now available for download as 
+a Progressive Web App (PWA) for ChromeOS in the Google Play store.
+This makes it easy for Chromebook users to access Meetings directly from their desktop, 
+without having to go through the browser. Similarly, this provides you with more flexibility to 
+manage services and apps for your users.",5
+"Move Webex Meetings from your desktop to mobile app using a QR 
+code (NN: seems a duplicate of the previous version [April 2022])","We are introducing the Move Meeting to Mobile feature where users can scan the QR code 
+using their mobile camera and move their meeting to Webex Meetings mobile app without 
+disrupting or disconnecting the meeting.",5
+Update your meeting app before you join the meeting,"The goal is to ensure that all attendees are able to participate in the meeting effectively and use 
+all the available features. We’re giving you the option to update your app before you join the 
+meeting. Then you’ll be sure to have the latest features for an optimal meetings experience.",5
+"Support email reminder for up to 100,000 licenses","Today, organizations or sites with licenses of 10,000 and below can schedule email reminders 
+to attendees. Starting with the 42.5 update, organizations or sites who have more than 10,000 
+licenses can also schedule email reminders. To support a large volume of emails, the reminder 
+
+can be scheduled to be sent at least 12 hours before the start time. This feature also supports 
+webcast view for attendees.",5
+Improved Registration page,"Now, when you go to register for an upcoming meeting, you see the meeting title, time, and 
+host. This helps make it clear what meeting you're registering for. We've also removed the 
+meeting password in the Registration page since you don't need that information during 
+registration.
+If you're the host, you also get a registration link that they can copy to the Meeting information 
+page.",5
+Entry and exit beep changes,"All new sites have this feature turned off by default. For existing sites that have entry and exit 
+beep that is turned on, phone users continue to hear the beep, while it is turned off for computer 
+audio users.",5
+New and improved scheduler for Meetings and Webinars,"Scheduler on website for Meetings and Webinars is undergoing following UI enhancements,
+1. A new section that is called Security is added and all scheduling options that are related 
+to security are moved here. This includes passwords for meetings and webinars.
+2. Tooltips are added to most scheduling options including options under Attendee 
+privileges and Meeting options.
+3. Agenda is now part of the main or basic scheduling flow instead of under advanced 
+options.",5
+"Fullband audio support in Music Mode on by default for Mac and 
+Windows","Music Mode now uses Fullband audio quality on Mac and Windows Meetings app, by default. 
+Administrators that require the use of lower quality audio for Music Mode can request the 
+feature toggle to be disabled for their site. By default, Music Mode sessions are encoded using 
+up to Fullband audio quality. With this toggle disabled, Music Mode operates up to 
+Superwideband audio fidelity on desktop clients. But Webex takes up more network bandwidth.",5
+Breakout support for audio-only users,"A user joining a meeting using Audio only (PSTN), can now be placed in a breakout session. 
+This feature is available for meetings desktop and mobile.
+Attendee experience:
+1. The attendee is prompted when they are moved to a breakout. They can be moved 
+immediately or asked to join later which they can do by pressing *2.
+2. When turned on, the attendee can return to main session and rejoin the breakout by 
+pressing *2.
+3. When a host or cohost closes the breakout sessions, the attendee is warned and then 
+moved to the main meeting.
+Host experience:
+1. An audio-only host, when assigned to a breakout session by a cohost, can join the 
+breakout session later by pressing *2, regardless of selected settings.
+2. They can also return to the main session and rejoin the breakout session by pressing *2 
+regardless of the selected settings.
+3. Host is warned with an audio prompt when a cohost moves them to another breakout 
+session.
+4. When a cohost closes the breakout sessions, they are warned and then automatically 
+moved to the main meeting.
+Limitations:
+
+ In meetings, attendees cannot view or choose the breakout session to self-join. They 
+must be assigned to a breakout session by the host or cohost.
+ This feature is not supported for attendees in Webinars, only supported for panelists.
+ If using a Meetings desktop app version earlier than the current version, audio-only 
+users aren't listed in the Participant of the breakout session.
+ Only following DTMF tones are available inside the breakout for
+ Host: *2, *6, ** Attendees: *2, *3, *6, **",5
+Display an image to attendees while conducting a practice session,"When the practice session starts, attendees can now view an image that the host has uploaded. 
+The host can upload an image before the webinar starts.
+This feature doesn’t support webcast view. The ability to upload other file types will come in a 
+later update.",5
+Slido rating poll improvements,We're adding the option to choose between the emoji and star scale.,5
+"Collaboration restrictions for your company users from Control 
+Hub settings templates","With this update, collaboration restrictions can now be applied at an individual user and group 
+level from the settings template in Control Hub.
+Today, IT administrators can block users from joining meetings that are hosted on the external 
+sites at the org level only. With this update you can apply this policy at group and user level 
+using settings template. Collaboration restrictions are applicable to the permitted sites too.
+The Settings template is applicable to your company user joining both internal meetings and 
+external meetings, with separate collaboration restriction toggles.
+
+More than 20+ compliance control features are available for you to apply across your company 
+users joining internal or external meetings.
+Users are provided with appropriate messaging while using Webex Meetings based on their 
+company policy.
+[This feature is not available for Webex for Government.]",5
+"Webex Meetings compliance policies for Bring Your Own Device 
+(BYOD)","IT administrators can now prevent users from joining company meetings from a BYOD. This 
+feature leverages registry keys or tokens.
+Users can join your company meetings using BYOD only if a registry key or token is detected on 
+that device.
+[This feature is not available for Webex for Government.]",5
+Forced authentication before joining Webex Meetings,"In Control Hub, as an administrator, you can now lock the company device to allow only 
+authenticated company users to join meetings using that device.
+This feature is applicable to your users using company device to join meetings that are held 
+within your organization or joining external meetings (meetings held outside of your 
+organization). This feature leverages the registry key and token that have already been 
+introduced.
+Without the registry key, if Authenticated Sign-in is ON, it applies to the user trying to join 
+meetings with a claimed email address.
+[This feature is not available for Webex for Government.]",5
+Ability to disable Broadcast Message,"Administrators can now disable Broadcast Message using Control Hub templates for meetings 
+and webinars. The control to disable this feature is available at the user, group, or org level.
+When the administrator has this feature disabled for the user, they won’t be able to receive 
+broadcast message. The user as a host or cohost won’t be able to use the Broadcast Message 
+feature in breakout rooms. The host and cohost are notified of the feature limitations.",5
+"New join policy for your company meetings with allowed lists for 
+IT administrators","IT administrators can now set rules on who can join your company meetings. You can choose to 
+allow anyone to join your internal meetings or choose to create an allowed list of domains. Only 
+users who are authenticated on that domain can join your internal company meetings.
+This policy can be applied at the organization level. You can also choose to apply this policy at 
+user and group level using the settings template in Control Hub. This feature is available for 
+meetings desktop and mobile.",5
+Grid view support for up to 81 videos,"Grid view in Meetings, Webinars, and Events (classic) can now support up to 81 simultaneous 
+videos per page! This gives you the ability to see even more thumbnail videos in large meetings.
+You can set your preferred maximum numbers of videos to show in grid view in the Meetings 
+settings.
+The actual number of videos may be limited by your screen resolution or window size.",6
+Support webinar series,"Webinar series brings a simple registration experience where registrants can select and register 
+for multiple webinars at once.
+Webinar series owners can add webinars to a series. They can invite their team to a series as 
+contributors. Contributors can also add their webinars to a series and manage the series. All 
+webinars in the series will use the same registration form. The webinar owners manage 
+registration approval for the webinars that they own.",6
+Allow Embedded Apps to be opened in stage view,"Third-party apps opened in Webex Meetings can now be opened in stage, not just in the Apps 
+panel. Some apps are better used in full screen so now users can open those apps in stage 
+view.",6
+Update to the error message during meeting start or join,"To ensure you have a good support experience when faced with join meeting issues, we are 
+adding a few more details to the error message dialogs shown to the user. With the next update, 
+you can see a meaningful high level description of the error a user has run into. A meeting 
+details component contains any other details surrounding the error including the error code. You 
+also have the option to Send Problem Report to Cisco for the issue. You can share these 
+details including the error code when logging a TAC case.",6
+Share content window can be resized,"You can now scale the Share content window to make it bigger. This makes it easier to see 
+more of the windows you have open without having to scroll.",6
+Media quality indicator center update,Mobile users can now view their network quality status in the indicator center during a meeting.,6
+IT Administrators can enable Embedded Apps for a group of users,"IT administrators can now enable the embedded apps for a group of users. To enable the app to 
+a group of users, login to Control Hub, navigate to the Apps > Embedded Apps. Then choose 
+an app and enable it for the selected groups.
+This capability requires that the Control Hub feature toggle be enabled. The Control Hub feature 
+toggle will be available by mid-June.",6
+Identify if you are connected to a Webex for Government meeting,"Participants connecting to a meeting hosted by Webex for Government can now easily tell what 
+meeting platform they are connected to.",6
+Webex Meetings Apple CarPlay UX improvement,"Webex Meetings users can view their upcoming meetings after connecting their iPhone to Apple 
+CarPlay dashboard and can join the meeting with one click.",7
+"Share, Mute, and Unmute in Webex Meetings directly from your 
+task bar in Windows 11","With Windows 11, Webex Meetings now allows you to share applications directly from the task 
+bar. This also includes the Mute and Unmute from taskbar. Hover over the application in the 
+task bar and a pop-up appears with the option to share the application in Webex.",7
+Immersive share on video devices,"Users on on-premises registered video devices such as cloud DX, SX, and MX, can now see 
+presenters in front of shared content.",7
+Attendees can hear music during a practice session in a Webinar,"The host can upload a music file in the scheduling process, when the practice session starts, 
+this music file play by default for the attendees. Attendees can mute the music as needed.",7
+Audio & Video statistics moved into Meeting settings,"In the desktop app for Meetings and Webinars, we’ve consolidated the Audio & Video 
+Statistics into Meeting settings. These settings can be found in the Statistics tab.",7
+Practice session - add text message in a Webinar,"The host can now edit the message that attendees see when practice session is in progress.
+Hosts can customize the message content and location in the scheduling process. When the 
+practice session starts, this message is shown to the attendees.",7
+"Webex now supports right-to-left languages, including Hebrew and 
+Arabic","Currently, Webex doesn’t supports languages that are read right-to-left (RTL). In this update, 
+we’re adding support for RTL languages, starting with Arabic and Hebrew.",7
+Webinar attendance report includes email address,"After a webinar ends, the attendance report from webinars with webcast view also contain the 
+attendees' email address column, making it easy to accurately identify who the attendees are, 
+and join with other report.",7
+Virtual background support for GIF and MP4 animation,"Similar to desktop and iOS, Android now supports MP4 virtual background. GIF is currently not 
+support for Android.",7
+"Innovate to audit more administrative activities in Control Hub 
+admin audit log","We’ve innovated the legacy site administration configuration and moved site administration 
+options to Control Hub. The administrator can go to administration activities in Control Hub to 
+audit these activities. In this update, it covers all options relevant to Webex Meetings and 
+Webinars in Control Hub managed sites.",7
+Option to disable all post-meeting emails,"The existing site administration setting for Send notification email now controls the email 
+notification flow for both recording-generated emails as well as other post-meeting content 
+emails (highlights and meeting transcript). With this setting, all post-meeting emails can be 
+enabled or disabled using a single toggle.",7
+"Compliance feature for IT administration to block use of VoIP in 
+meetings for their regulated users","This compliance feature allows IT administrators to block their company users from using VoIP 
+to join meetings. The IT administrators can choose a particular user, group of users, and 
+organization level external meeting setting for whom these settings would apply. This new 
+setting is a part of the Control Hub settings template.",7
+"Site administrators can set if webinars need to have numeric 
+password for users joining using a phone","Webex webinars now allows the site administrators to configure, if the dial-in users need to 
+enter a numeric password ID, in addition to the mandatory access code. Previously, it enforced 
+dial-in in users to enter both numeric password and access code. Going forward the numeric 
+password is configurable by the site administrators.",7
+Webinar template scope improvement,"You can use the improved webinar template to avoid making the same settings multiple times.
+Previously, the webinar template only saved the settings on the scheduling page (except 
+registration setting and panelists). However, in this update, the webinar templates have 
+additional settings with registration questions (including approval rules), panelists, email 
+template, registration landing page, webinar materials, and practice session setup. If any of 
+these fields don’t need to be saved, you can exclude them before saving.",8
+"Streaming and recordings layout is adjusted in-meeting and follows 
+the stage layout","In a Webex meeting, you can now dynamically adjust the recording and streaming layout within 
+the meeting. You can also record the stage that has been synced for all participants and when a 
+meeting host adjusts the synced stage for all participants, the recording or streaming layout will 
+match the stage layout.
+This especially helps when recording classrooms where the recorded videos need to be set in a 
+certain way, or when recording all-hands sessions where a sign language interpreter needs to 
+be present on stage.",8
+Post webinar survey,"Hosts can define the survey questionnaire and layout when they set up a webinar.
+When the webinar ends, attendees see the survey on their main browser. After their responses 
+are submitted, hosts can download the responses in the completed webinar portal.",8
+"Streaming and recordings layout can be adjusted in-meeting and 
+follows the stage layout","In a Webex meeting, you can now dynamically adjust the recording and streaming layout within 
+the meeting.",8
+Enhanced experience when sharing a camera as content,"In this update we're improving the experience when sharing a camera as content. Now, when 
+sharing a camera as content, it shows directly within the meeting window itself. This makes it 
+easier to keep an eye on participant videos, panels, apps, and more!
+Any Files or Whiteboards that are currently being shared are stopped when choosing to share a 
+camera. Similarly, if you are sharing a camera as content, it is stopped if a File or Whiteboard is 
+shared.",8
+Other language option for Simultaneous Interpretation,"Other is now included as an option when selecting languages for simultaneous interpretation. 
+This update doesn't yet support indicating a specific custom language. The option simply states 
+Other, which allows users to assign it to interpreters who are speaking languages that aren't 
+part of the standard list.",8
+Removal of Verify Rich Media Player from the Help menu,"In this update we’re removing Verify Rich Media Player from the Help menu in Webex 
+Meetings, Webinars, Events (classic), and Training, as this option is now obsolete.",8
+"Attendee doesn't need to re-enter email or registration ID before 
+joining a webinar","When you join as an attendee, you won’t need to re-enter your email or registration ID before 
+joining a webinar in the following cases:
+● If you have a Webex account on the current site and you received a join link after the 
+host invited you from the webinar or you registered for the webinar and are approved by 
+the host.
+● If you already joined or registered for a webinar meeting earlier and the user name and 
+mail is received from the cookie.
+This applies to webinar with webcast view.",8
+Webinar registration page updates after registration,"When you register for a webinar, you’ll see the following updates:
+● If you’re approved, the you’ll see more meaningful actions, for example, join button, add 
+the webinar to calendar, and download material.
+● While you enter your information and click Submit, you’ll not see the Submit button 
+while your approval is pending to avoid confusion for double registering. If your submission is approved, then you'll see the Join instead of the Submit button, and you can download webinar materials if the host has it setup.",8
+Webinar promotion in classic event,You'll see a webinars promotion dialogue and message bar in classic event.,8
+Hide non-video users on video devices,"For on on-premises registered video devices and cloud registered DX, SX, and MX series video 
+devices, you can hide people who have disabled their video. This allows for a more engaging 
+video experience, similar to the same capability that exists in the app.
+When someone without a video becomes the active speaker, they are shown with an active 
+speaker bubble on the screen with their name. After they stop talking, the bubble disappears.
+People on their devices can switch this behavior using #5 on their numeric keypad interface.",8
+Change the paired device meeting layout from Webex app,"If you join a meeting or call from a paired Cisco room, desk devices, or mobile you can change 
+the layout on the device just from the Webex App.",8
+Select and download multiple recordings,"Multiple recordings are available to download from the web portal by navigating to My 
+Recordings > Recordings in your Webex site.",8
+Reset Webex sessions,"This feature allows you to log yourselves out of all instances of your Webex Meetings App.
+Removing Webex Refresh Tokens, forces you to sign out on any Webex Meetings App instance 
+that you are signed into.",8
+"Separate administrator settings for Webex Assistant and the 
+Captions & Highlights panel","The administrator settings for enabling the Webex Assistant and enabling the Captions & 
+Highlights panel can now be set independently. For example, administrators can disable the 
+Captions & Highlights panel while keeping Webex Assistant enabled; in that case, the Captions 
+& Highlights panel will not show in meetings, except when the host turns on Webex Assistant.",8
+Support customizable registration forms,"Provide customers with the ability to answer customizable registration questions using the API 
+for both Meetings and Webinars.",8
+Administrator's ability to retrieve recordings of all users per site,"We now provide the ability for administrators and compliance officers to retrieve all recordings 
+for a site. This is possible using the new /admin/recordings endpoint. With this feature we further 
+strengthen the security and compliance of our platform.",8
+Custom registration questions for Webinars and Meetings,"Currently, if you are using Meetings API, you can choose what registration questions are 
+required to be answered for an attendee to register for meeting or a webinar. These registration 
+questions can be chosen out of the standard list of registration questions provided by Webex. In 
+this update, the APIs are enhanced, to allow you to retrieve list of custom questions that are 
+created on Webex sites as well as choose which of these custom created questions are 
+required for registration when scheduling a meeting or a webinar.",8
+Webex Scheduler now supports GCC and GCC High environments,"The Webex Scheduler now supports Government Community Cloud (GCC) and GCC High 
+users to schedule, edit, and delete Webex meeting on Outlook. To apply this feature, site 
+administrators need to choose either GCC or GCC High based on the Microsoft account in their 
+organization, and authorize the administrators to consent to Webex.
+This feature is only enabled for Webex for Government.",8
+Chapters in the recording video,"If you are using Webex Meetings and Webinars you can now add chapters to a recording and 
+share them with others. This makes it faster and easier to view recordings that are longer in 
+duration.
+Hosts can indicate the starting timestamp of a chapter along with its title and then delete them. 
+You can enable MP4 recording and Webex Events (classic).
+You can view all the chapters in the recording playback bar and chapter panel.",9
+Track where your webinar attendees are coming from,"Invitation sources allow you to see where your attendees are coming from if you share the 
+webinar links in multiple locations. You can create unique URLs for different platforms and 
+share that unique link to track how many joins or registrations each platform has generated.
+This feature isn’t supported in China data center.",9
+Reorder participants on the stage,"You can now reorder the participants you've moved on to the stage. Simply drag and drop the 
+video you'd like to move into the position you'd like, or use the more options menu in the video 
+thumbnail where you can select move to first position.
+As an attendee, you can't reorder participants who are being synced by the host or cohost.",9
+New Webex whiteboard (Beta),"The new Webex whiteboard is an infinite canvas where you can collaborate together with any 
+meeting participants whether they are using Webex Meetings app, Webex App, or Webex 
+devices.
+There are several handy tools such as pen, shapes, sticky notes, and images. When 
+collaborating with others, you can see their profile pictures moving along with their pen strokes.
+To start a new whiteboard, just click the ""..."" menu button and click ""Start New Whiteboard"". Or 
+if other participants start a whiteboard session, you can automatically join that session.",9
+Change default to not allow cohosts to end meeting,"Starting in 42.9, cohosts can’t end meetings. This change prevents accidental ending of 
+meetings by cohosts. If an organization wants to change back to allow cohosts to end meetings, 
+they can have their CSM submit a provisioning request.",9
+Shared content in stage view is now larger,"When you share content in a meeting or webinar, the shared content is now larger and the 
+speaker video(s) is now smaller. The ratio between content and speaker videos is 
+approximately 70:30 but depends on the size of your screens and the number of speakers on 
+stage.
+The rest of the stage flow works the same.",9
+"Simultaneous Interpretation: enable or disable interpretation ad-
+hoc and set a default language for scheduled meetings, webinars, and 
+Personal Room meetings","Simultaneous Interpretation is supported in Personal Room meetings. You can enable these 
+settings in site preference.
+For both Personal Room meetings and scheduled meetings or webinars, hosts can enable or 
+disable the interpretation feature ad-hoc in the meeting, easily by controlling it on the fly.
+Hosts can also set a default language channel for everyone in the meeting (except interpreters) 
+during scheduling or in the meeting. This gives hosts greater control over the meeting 
+experience for their attendees and makes it easier for users to experience interpretation in their 
+meeting.",9
+Open text – topics or clusters,"The type of responses that are being submitted to Open text polls are clustered and organized 
+into categories. Available in Slido Labs and automatically ON for Cisco accounts. Rolling out to 
+more accounts in the following weeks.
+Only non-beta customers can’t see this feature.",9
+New settings available in Webex Sidebar,"Four new expandable sections are now available; General, Privacy, Audience Q&A, and Polls. 
+Click and open Advanced settings which bring you to a pop-out of administrator settings.",9
+Open text - display name,"This feature adds the option to display a name that is attached to an answer. Once the 
+participant decides to add their name it is visible in administration, participant, and present 
+mode.",9
+"Administrators can enable Allow host account signup on Control 
+Hub managed sites","In case you missed the 42.8.5 update, administrators can enable Allow host account signup 
+on Control Hub managed sites. This feature has been available for site administrator-managed 
+sites and is now also available on Control Hub managed sites.
+This feature allows people without an account on the site to request a host account.
+A related feature for administrators to enable Allow users to request that additional services 
+are also part of this feature.
+You can request for approvals in Control Hub using the Requests tab of notification Center in 
+Control Hub.",9
+Enhanced meeting security with Auto Admit,"We are excited to introduce Auto Admit that is designed to make your life easier as a meeting 
+host while increasing the security of your meeting.
+This new default behavior allows invitees who are signed into Webex to join a scheduled 
+meeting directly without having to wait in the lobby. No more admitting people in the lobby when 
+they were supposed to be in the meeting anyways.
+No passwords or PIN numbers required. Even Webex Room systems that you add to your 
+meeting invite can join the meeting directly.
+Remind your invitees to sign into Webex to be able to take advantage of this amazing new 
+usability improvement.
+For users who aren't signed into Webex and those that aren't on the invite, they continue to wait 
+in the lobby until you or a cohost admits them.",10
+Share mobile camera view as content,"We’re introducing an industry first ability to share the camera view from your mobile device or 
+iOS and Android users. During a Webex Meeting, mobile app users can start sharing their 
+mobile camera view with all the meeting participants. Meeting participants can view shared 
+mobile camera content in full screen mode on their computers, devices, and phones.
+To use this feature, select Start or Join a meeting, then ... more > Share Content > Camera 
+icon.
+Capabilities while sharing mobile camera:
+Zoom in or zoom out when sharing mobile camera and attendees see the updated view.
+Annotate with shared mobile camera content.
+ User can share either front camera or back camera.
+ If you’ve turned on self-video on your meetings mobile app, it is turned off when sharing 
+mobile camera as content.",10
+Lobby chime in Meetings,"To help hosts and cohosts manage attendees in a meeting we have added sound notifications 
+for when a person joins the lobby. In addition to the current visual notification, hosts and cohosts 
+can now turn on an audio notification. This option is found in Meeting Setting -> Notifications. 
+People can choose which sound they hear. Sound is only audible for hosts or cohosts. If 
+multiple people join lobby at same time only one sound plays. After 10 seconds then sound 
+plays again if a new person joins the lobby.",10
+"Host can grant access to the meeting reports to their 
+administrators","This feature empowers the scheduling delegates, typically the executive administrators, to 
+access the meeting content that includes recordings, transcripts, highlights, and attendance 
+reports. Thereby, removing the burden from executives of download this information and 
+manually sending them to their administrators for any further analysis or processing.
+When the meeting ends, the delegate, in addition to the host, gets an email with the link to the 
+page where the meeting content is available. Delegate can also sign-in into the Webex site 
+page, select the Calendar option in the left menu, go to the Completed tab and select where I 
+am a delegate in the drop-down menu. The delegate can see and access the completed 
+meeting list and meeting content by clicking any of the meetings.
+Only a user marked as delegate can access the meetings content when the meetings end. 
+Moreover, a Webex user has an option to assign if a delegate has access to meeting content or 
+not.",10
+Simultaneous interpretation original (floor) audio pass through,"When interpreters aren’t speaking in a language channel, participants subscribed to that 
+channel automatically hear 100% original (floor) audio. Once an interpreter speaks in the 
+channel, the user hears the volume balance of an interpreter or the original audio according to 
+what has been set (by default, it is 80% interpreter, 20% original audio, but the user can change 
+it according to their preference). This feature does not change the user interface.",10
+Email template improvement,"In this update, webinar supports three new email templates:
+ Webinar invitation emails for panelists
+ Cancellation emails for panelists who are removed in the webinar
+Page 3 (Oct 2022)
+ Absentee follow up emails for people who registered for but didn’t join the webinar
+Certain email templates are optional, and hosts can decide if they want them to be sent out.
+There is also improved support for variables in the email templates, making customization 
+easier for the host.
+Also, there's improved support for variables in the email templates, which makes the 
+customization easier on the host.
+Support to customize logos for all the email templates.",10
+Breakout session attendee report,"Breakout session attendance report is added to the meeting attendee report. This includes 
+breakout session names along with the attendee join and leave time.",10
+Attendance report now sortable on web (Apple),"This report was previously static and not sortable. Now it is sortable by last name directly in the 
+browser without having to download it.
+Only non-beta customers can’t see this feature.",10
+New look for site administration management,"We're changing the look and feel of your meeting site management pages in Control Hub. We’re 
+making your experience of managing your site consistent with how you manage other services 
+in Control Hub.
+The current site management pages use IFrames to pull the site management settings from 
+Webex Site Administration into Control Hub. This interface refresh removes the IFrames and 
+ports most of the site management settings on Control Hub pages. Meanwhile, all administrative 
+activities are audited in Control Hub audit log. We provide a capability for the customers to 
+revert to the old site administration tool in that time, and the administrator can also switch to a 
+new site administration experience. (In this phase, we completed the relevant functions relating 
+to Webex Meetings and Webinar meetings.)",10
+Update SSO auto-account creation in Site conversion tool,"Site administrator sites with auto account creation can now be updated from Site adminstration 
+to Control Hub.
+
+Administrators should configure their Control Hub ORG with Auto account creation and auto 
+license templates before updating their site to Control Hub to avoid loss of functionality.",10
+Ability to disable broadcast message,"Administrators can disable Broadcast Message using Control Hub templates for Meetings and 
+Webinars. The controls to disable this feature are available at the user or group or org level.
+When the administrator has this disabled for the user, then the user as an attendee to a webinar 
+or meeting can't receive broadcast messages. For a user that has the broadcast message 
+turned OFF, they aren't able to use this feature in the meeting and appropriate client message is 
+provided to them. If the user is a host, then the entire meeting doesn't have the broadcast 
+message capability.",10
+New webcast view experience in Webex Webinars (version 42.11.5),"We’re happy to announce the new webcast view experience, coming in November.
+Hosts can set up a customized logo in the scheduling step. The host and their attendees are 
+impressed by the polished look of Slido’s polling and Q&A, as well as the variety of the polling 
+questions. In the previous update, attendees view couldn’t be maximized, but in this update, 
+attendees can max out the web browsers' space to view the webcast.
+In terms of limitations, hosts can view the total number of attendees but can’t view the individual 
+attendees in the list yet. Also, the chat doesn’t have emojis or the ability to adjust font.",11
+New Webex whiteboard,"Previously this feature was available with a beta tag, but in 42.11 it is generally available to 
+everyone. The new Webex whiteboard is an infinite canvas where you can collaborate together 
+with any meeting participants whether they are using Webex Meetings app, Webex App, or 
+Webex devices.
+There are some new tools that are added to the new whiteboard:
+ Text—It's much easier to type text than writing with a mouse.
+Shapes—There are some built-in shapes, you can discover them by clicking the 
+Shapes tool.
+Lasso-selection—When choosing the Arrow tool, you can lasso-select objects in the 
+canvas and move them, delete them, bring to front or send to back.",11
+Edit In-meeting display name,"You can now edit your in-meeting display name in the meeting. This makes it easier to use a 
+preferred name or control how you want your name is seen by others.
+As a Meetings participant or Webinar panelist, in the Participants panel, simply right-click your 
+name and select Edit Display Name to edit your name for this meeting. Hosts and cohost can 
+edit the display name of any Meetings participant or Webinar panelist in the meeting or webinar.
+The meeting recording and usage report always show the last-edited name of a user.
+
+For customers who prefer to block the ability to edit display names, the can administrator can 
+disable it",11
+"Notice of default value change to ON for the Enable Webex 
+Assistant administration site setting","The Enable Webex Assistant setting is on by default, in November, unless an administrator 
+has already manually set it to Off. In November this change is applied to all customers, including 
+both slow and fast channel customers.
+This setting only makes Webex Assistant available in meetings but doesn’t automatically turn it 
+on. Whether or not Webex Assistant is turned on in meetings depends on the host's choice.
+Administrators can also control Webex Assistant availability for individual users and groups 
+using the settings templates.
+If a customer prefers Webex Assistant to be unavailable for all users, then they can ensure that 
+the Enable Webex Assistant setting is turned OFF by following these steps:
+If the setting is currently OFF:
+1. Turn the setting ON.
+2. Save the page.
+3. Turn the setting OFF.
+4. Save the page.
+If the setting is currently ON:
+1. Turn the setting OFF.
+2. Save the page.",11
+Custom Dictionary,"The Custom dictionary feature in Control Hub allows administrators to specify custom out-of-
+vocabulary words that aren’t part of the standard dictionary, so that when these words are 
+
+uttered in meetings, they can be transcribed more accurately in the closed captions and 
+transcript. The keywords include organization acronyms and jargon, industry terms, product 
+names, organization name, and people's names. In this update, this dictionary is limited to 100 
+words and English language support only.",11
+New lobby controls for Personal Room meetings,"The new lobby controls for Personal Room meetings re-categorizes guest users, separating 
+them into two groups with separate lobby controls.
+These two new users groups are:
+1. Unverified Users: Users who have not signed in and whose identity can't be verified.
+2. Verified External Users: Users who have signed in, but belong to a different 
+organization to the one hosting the meeting.
+Each of these user groups have separate and independent lobby controls:
+1. They can join the meeting.
+2. They wait in the lobby until the host admits them.
+3. They can't join the meeting.
+Distinguishing between unverified and verified external users allows administrators to enhance 
+meeting security by applying more stringent meeting entry controls for unverified users. For 
+example, unverified users can’t join the meeting, while verified external users are placed in the 
+lobby or unverified users are placed in the lobby, while verified external users can join the 
+meeting directly.",11
+Webex Scheduler support preferred site to login,"Webex Scheduler uses the default Webex site when scheduling a meeting. You can change the 
+default Webex site in Webex App preferences. Administrators can perform a bulk default Webex 
+site change for users by a user CSV export and import in Control Hub.",11
+"Change attendee status to pending in the Manage Webinar 
+Registration page","You can now see a Change status to pending button in the manage webinar registration page, 
+which allows you to change the registration status of an approved or declined attendee to 
+pending.
+Attendees marked as pending are listed in the pending tab of the manage registration page.
+When the status of an approved attendee is changed to pending, the attendee receives an 
+email informing them that their invitation to the webinar is cancelled. No such email is sent to 
+attendees whose registration status has been changed from declined to pending.",11
+"Host notification for recordings reaching expiry based on retention 
+policy","Webex users receive an email notification if they have recordings reaching expiry soon. They 
+can see an expiring soon label next to their recordings in the recordings tab in the Webex site.
+These notifications are set either weekly or monthly, depending on the retention period set by 
+the administrator. These notifications are controlled by the existing recording email notification 
+toggle in settings.",11
+"Restrict meeting experiences using registry keys on your 
+company devices","IT administrators can restrict their company devices to adhere to certain meeting experience 
+based on their company policies. This can be done via pushing down a registry key across all 
+your company owned devices.
+Today if a user is signed-in they adhere to their company policies no matter the device they join 
+the meeting from. This behavior changes with the registry key installation from this update. 
+Going forward if the restricted machine or device has a registry key the experience is the most 
+restrictive policy. For example, devices or machines restrict file transfer but the user policy 
+allows for this feature, if the user joins the meetings using this restricted device they can no 
+longer perform file transfers in that meeting. we will go with the most restrictive policy",11
+Forced authentication before joining Webex Meetings ,"In this update, IT administrators can now lock the company device to allow only authenticated 
+company users to join meetings using this device. You turn ON this feature in Control Hub.
+
+This feature is applicable if you are using company device to join meetings that are held within 
+your organization or joining external meetings (meetings held outside of your organization). This 
+feature leverages registry key and token that are introduced. 
+In this update, IT administrators can now lock the company device to allow only authenticated 
+company users to join meetings using this device. You turn ON this feature in Control Hub.
+
+This feature is applicable if you are using company device to join meetings that are held within 
+your organization or joining external meetings (meetings held outside of your organization). This 
+feature leverages registry key and token that are introduced. ",11
+"Ability for IT administrators to control secondary camera 
+experience for their meeting users","IT administrators can now decide if their users should have the secondary camera capability in 
+their meetings or not. Administrators can apply this configuration to a specific user, group of 
+users, or to their entire organization using Control Hub settings template or to their entire 
+organization using org level settings on Control Hub. Administrators can also choose which 
+meetings (internal or external) these settings apply using the options that are provided to them 
+in the settings templates.
+The end user is provided with an appropriate notification from the app when this secondary 
+camera feature is disabled for use by the IT administrators.",11
+"Trusted domains for Personal Room meetings and internal only 
+Personal Room meetings","This feature provides more granular control over internal Webex Meetings.
+Previously this Control Hub feature allowed an administrator - to make all scheduled and 
+Personal Room meetings:
+1. Accessible by all external users
+2. Accessible only by users from approved email domains
+3. Accessible only by internal users
+This feature can be applied to:
+1. All users in the organization
+2. A group of users in the organization (using Templates and User Groups)
+3. An individual in the organization
+This new feature allows the above controls to applied only to Personal Room meeting such that:
+1. Scheduled Meetings and Personal Room meetings are accessible by all external users.
+2. Personal Room meetings are accessible only by users from approved email domains, 
+scheduled meetings are accessible by any external user.
+3. Personal Room meetings are accessible only by internal users, scheduled meetings are 
+accessible by any external user.
+This Personal Room meeting only filter can be applied to all users in the organization, a user 
+group, or an individual user.",11
+"Hosts, cohosts, and panelists to initiate private chat with attendees","Webinar hosts, cohosts, and panelists can now initiate a private chat with attendees using the 
+chat panel or the participant list. They can now initiate communication with attendees 
+proactively without requiring attendees to reach out to them first.",12
+The share control bar is now expandable and collapsible manually,"When sharing the screen, sometimes the control bar gets in the way of content and the 
+automatic opening and closing can be distracting. These changes allow the bar to be dragged 
+left and right across the screen to see content behind. It’s also openable manually for better 
+control of the menu.",12
+Polling to be managed by both host and cohost,"Hosts and cohosts can both manage built-in polling (not Slido) during meetings and webinars.
+Hosts and cohosts can edit polls at the same time and receive notifications for who is editing the 
+poll as well as who has already made edits to the poll. This makes async collaboration much 
+easier.",12
+"Host's closed captions status is independent of host's Webex 
+Assistant status","When the host turns on the Webex Assistant, it no longer automatically turns on the host's 
+closed captions box; instead, the closed captions box's on or off status is independent and 
+follows the same behavior that exists for attendees. That is, for all users, including hosts and 
+attendees, the closed captions box's on or off status depends on what the user selected last. 
+For example, if the user had closed captions on in the last meeting, then it remembers that 
+selection and continues to stay on in their next meeting, and conversely, regardless of the 
+Webex Assistant status.",12
+Webex Meetings iOS app UX improvements (iPhone and iPad),"The Webex Meetings app for iPhone and iPad is redesigned to provide a better experience for 
+users.
+Style update for interstitial page, in-meeting more menu, plist, layout, layout options, and 
+in-meeting chat.
+In-meeting chat, plist and apps modal appears as side panel for iPad Webex Meetings 
+app.
+Indicator center moved at bottom left corner.
+Speaking bubble appears only when speaker is not on the screen.
+Virtual background option added in in-meetings more menu.
+In-meeting Audio icon (earpiece, speaker, and bluetooth) moved to bottom call controls.
+Logged-in user can share PMR link from within iMessage.",12
+Seasonal Emoji Reactions-Windows and Mac,"To add some festive cheer, we're giving reactions a seasonal makeover. You'll see these 
+changes for all reactions on Windows and Mac from December 7 to December 30. (On mobile, 
+reactions use the Android or iOS emojis so we aren't updating those reactions.) If you'd prefer to 
+turn this option off, contact feature-feedback@cisco.com before December 10.
+This is only available using the December release builds.",12
+Easily control how your self-view displays,"In this update, we're giving you even more control over where and when you want to see your 
+own video in meetings, webinars, and webcasts. You can still choose to either show your self-
+view with others or show your self-view in a floating window. But now you can also hide your 
+self-view altogether, or only hide it when video is off.",12
+New webcast view experience,"In case you missed the update that came in 42.11.5 the host can setup a customized logo from 
+the scheduling step, which you couldn’t do before. The host and their attendees are impressed 
+by the polished look of Slido’s polling and Q&A, as well as the variety of the polling questions. 
+The streaming quality can go up to 1080p. In the previous version, attendees view couldn't be 
+maximized, but in this update, attendees can max out the web browsers' space to view the 
+webcast.
+In terms of limitations, host can view the total number of attendees but can't view individual 
+attendees in the list yet, this is being worked on. Also in chat, it doesn't have emoji or the ability 
+to adjust font.",12
+Schedule a webinar from within a series,"Series owners can now schedule a new webinar from within their series.
+When you select Schedule a new webinar, the series owner is redirected to the scheduling 
+page and goes through the process of scheduling a webinar. In this flow, however, the webinar 
+series is pre-populated with the series name within which the webinar is being created.",12
+Manage registration in webinar series,"Webinar series owners and collaborators can now manage the registration of individual 
+webinars in their series through the series information page. They can view how many people 
+have registered for each webinar, including the number of pending, approved, and rejected 
+registrants. They can also quickly respond to registrations from the series information page by 
+clicking on the hyperlinked pending, approved, or rejected numbers listed by the webinar name, 
+which redirects them to the registration page of that webinar.",12
+Webinar update,"Webinar users now see a new component on the webinar scheduling page, which contains links 
+to a webinars quick start guide as well as other help documents. This aids new webinar users in 
+scheduling a webinar and informing them of all that webinars has to offer to enhance their pre, 
+post, and in-webinar experience.",12
+"Option to hide profile picture in the grid layout when self-video is 
+off","Mobile users can now either show or hide their profile picture self-view in the grid layout when 
+their self-video is off.
+By default, when the self-video is off, your profile picture with self-view is shown in the 
+grid layout.
+When you turn on the Hide SelfView toggle during the meeting, your profile doesn’t 
+appear in the grid view when your video is off. Only participants appear in the grid 
+layout.
+This option can be used by accessing ..., more option -> Settings during the meeting",12
+Webex Meetings iOS app UX improvements (iPhone and iPad),"The Webex Meetings app for iPhone and iPad is redesigned to provide a better experience for 
+users.
+Style update for interstitial page, in-meeting more menu, plist, layout, layout options, and 
+in-meeting chat.
+In-meeting chat, plist and apps modal appears as side panel for iPad Webex Meetings 
+app.
+Indicator center moved at bottom left corner.
+Speaking bubble appears only when speaker is not on the screen.
+Virtual background option added in in-meetings more menu.
+In-meeting Audio icon (earpiece, speaker, and bluetooth) moved to bottom call controls.
+Logged-in user can share PMR link from within iMessage.",12
+"Hosts, cohosts, and panelists to initiate private chat with 
+attendees","Webinar hosts, cohosts, and panelists can now initiate a private chat with attendees using the 
+chat panel or the participant list. This enables them to initiate communication with attendees 
+proactively without requiring attendees to reach out to them first.",12
+"Restrict meeting experiences using registry keys on your 
+company devices","IT administrators can restrict their company devices to adhere to certain meeting experience 
+based on their company policies. This can be done by pushing down a registry key across all 
+your company-owned devices.
+Today, if a user is signed in, they adhere to their company policies no matter the device they 
+join the meeting from. This behavior changes with the registry key installation. Going forward, if 
+the restricted computer or device has a registry key, the experience has the most restrictive 
+policy. For example, the device or computer restricts file transfer, but the user policy allows for 
+this feature, if the user joins meetings using this restricted device, they can no longer file 
+transfer in that meeting.",12
+Update sites with external users to Control Hub management,"You can now update the site management from Site Administration to Control Hub for sites 
+which have users in other Orgs.
+Till now, users on the site who belong to external Control Hub orgs had to be deactivated before 
+you could update a site to Control Hub managed.",12

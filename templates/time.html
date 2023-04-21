@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>Acculytixs</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style5.css') }}">
+  
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+  <!-- JavaScript Bundle with Popper -->
+ <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background:url(/static/Images2/analytics.jpg) center / cover no-repeat;">
+  <section id="nav-bar">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent cl-effect-10">
+  <a class="navbar-brand" href="#"><img src="{{ url_for('static', filename='Images2/logo.png') }}"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+   <ul class="navbar-nav ms-auto" >
+      <!-- <li class="nav-item" >
+        <a class="nav-link bb1" style="color: white" href="main.html">HOME</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link bb1" style="color: white" href="{{ url_for('index2') }}">INTERVAL PREDICTIONS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link bb1" style="color: white" href="{{ url_for('time') }}">CATEGORIZED PREDICTION</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link bb2" style="color: white" href="{{ url_for('home') }}">PREDICTION</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link bb3" style="color: white" href="#"> ANALYTICS</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link bb4" style="color: white" href="{{ url_for('about') }}">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link bb" style="color: white" href="{{ url_for('contact') }}">CONTACT US</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
+ <div class="login">
+  <h1>Crime Predictor</h1>
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict2')}}"method="post">
+      <div class="style">
+      <select name="Location" id="Location">
+   <option >Choose Location</option>
+  <option value="6476">Ajit Singh Nagar</option>
+<option value="24391">Bharathi Nagar</option>
+<option value="21894">Durgapuram</option>
+<option value="20515">Prasadampadu</option>
+<option value="1914">LIC Colony</option>
+<option value="28681">Bhavanipuram</option>
+<option value="12639">Kothapet</option>
+<option value="1283">Kedareswar Pet</option>
+<option value="7087">Moghalrajpuram</option>
+<option value="26377">Governor Peta</option>
+<option value="27437">Ashok Nagar</option>
+<option value="3347">Gollapudi</option>
+<option value="5799">Ramavarapadu</option>
+<option value="13023">Sitaram Puram</option>
+<option value="7724">Currency nagar</option>
+<option value="27059">Machavaram</option>
+<option value="9818">PayakaPuram</option>
+<option value="22532">Gunadala</option>
+<option value="30573">Maruthi nagar</option>
+<option value="18462">Patamata</option>
+<option value="7280">Ibrahimpatnam</option>
+<option value="23103">Penamaluru</option>
+<option value="11648">Teachers Colony</option>
+<option value="26305">Gudavalli</option>
+<option value="2173">vamba colony</option>
+<option value="5316">Chittinagar</option>
+<option value="6197">Gannavaram</option>
+<option value="28966">Poranki</option>
+<option value="2187">Christurajupuram</option>
+<option value="1057">Kabela</option>
+<option value="18320">Gandhi Nagar</option>
+<option value="16474">Kesarapalle</option>
+<option value="5368">Yanamalakuduru</option>
+<option value="3465">Lenin Center</option>
+<option value="15219">Labbipet</option>
+<option value="26243">Nandamuri Nagar</option>
+<option value="26178">Gurnanak Colony</option>
+<option value="32538">Krishnalanka</option>
+<option value="23813">AutoNagar</option>
+
+</select>
+</div>
+<!--      <input type="text" name="Block" placeholder="Crime Location" required="required" />
+
+ -->      
+ <div class="style2">
+      <select name="Month" id="Month">
+   <option >Month</option>
+  <option value="1">January</option>
+<option value="2">February</option>
+<option value="3">March</option>
+<option value="4">April</option>
+<option value="5">May</option>
+<option value="6">June</option>
+<option value="7">July</option>
+<option value="8">Agust</option>
+<option value="9">September</option>
+<option value="10">October</option>
+<option value="11">November</option>
+<option value="12">December</option>
+</select>
+</div>
+<input type="number"  min="0" name="Day" placeholder="Day" required="required" />
+<div class="style3">
+      <select name="timest" id="timest">
+   <option >Time</option>
+  <option value="1">MidNight</option>
+<option value="2">Early Morning</option>
+<option value="3">Morning</option>
+<option value="4">Afternoon</option>
+<option value="5">Evening</option>
+<option value="6">Night</option>
+</select>
+</div>
+      
+        <input type="submit" value="Predict" class="btn btn-primary btn-block btn-large"/>
+    </form>
+
+   <br>
+   <br>
+   <p1 >{{ prediction_text }}</p1>
+
+ </div>
+
+
+</body>
+</html>

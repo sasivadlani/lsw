@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8e5ddb5ec67245a1b61c1ee1fe58cdbe {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8e5ddb5ec67245a1b61c1ee1fe58cdbe" ></div>
+        
+</body>
+<script>    
+    
+            var map_8e5ddb5ec67245a1b61c1ee1fe58cdbe = L.map(
+                "map_8e5ddb5ec67245a1b61c1ee1fe58cdbe",
+                {
+                    center: [16.5087586, 80.6185102],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b8b62a2f3c6543c08b206aadc17ac27d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+            var circle_marker_c5afd122ae084a578d4e3f01b27dec6c = L.circleMarker(
+                [16.54, 80.5828],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_b64f13ada1244712b50fda0751c76f47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_090cdaf9eef745e7942a08b895035fa4 = $(`<div id="html_090cdaf9eef745e7942a08b895035fa4" style="width: 100.0%; height: 100.0%;">GollapudiCrimes Happened=0</div>`)[0];
+            popup_b64f13ada1244712b50fda0751c76f47.setContent(html_090cdaf9eef745e7942a08b895035fa4);
+        
+
+        circle_marker_c5afd122ae084a578d4e3f01b27dec6c.bindPopup(popup_b64f13ada1244712b50fda0751c76f47)
+        ;
+
+        
+    
+    
+            var circle_marker_ad76a97f0cbd4a04b6b26c1a0c3a3370 = L.circleMarker(
+                [16.07, 80.72],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_579b18f77daf4faa8709350764757403 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff99945637854b70b5c38a755396fb4b = $(`<div id="html_ff99945637854b70b5c38a755396fb4b" style="width: 100.0%; height: 100.0%;">GudavalliCrimes Happened=0</div>`)[0];
+            popup_579b18f77daf4faa8709350764757403.setContent(html_ff99945637854b70b5c38a755396fb4b);
+        
+
+        circle_marker_ad76a97f0cbd4a04b6b26c1a0c3a3370.bindPopup(popup_579b18f77daf4faa8709350764757403)
+        ;
+
+        
+    
+    
+            var circle_marker_dc1ffa43686746a78e7834208d926925 = L.circleMarker(
+                [16.5383, 80.6507],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_09c477073bdc40b886c60ea4fed95b71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5a064ac87b14268835ccab2bcdff48d = $(`<div id="html_b5a064ac87b14268835ccab2bcdff48d" style="width: 100.0%; height: 100.0%;">vamba colonyCrimes Happened=0</div>`)[0];
+            popup_09c477073bdc40b886c60ea4fed95b71.setContent(html_b5a064ac87b14268835ccab2bcdff48d);
+        
+
+        circle_marker_dc1ffa43686746a78e7834208d926925.bindPopup(popup_09c477073bdc40b886c60ea4fed95b71)
+        ;
+
+        
+    
+    
+            var circle_marker_6dc45e18e410494b8920e70878db93a5 = L.circleMarker(
+                [16.5142, 80.6261],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_6993aaa57e074ef59c4e0428633a9332 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42f8bb27e861425cb8ab3325fad5d23e = $(`<div id="html_42f8bb27e861425cb8ab3325fad5d23e" style="width: 100.0%; height: 100.0%;">Lenin CenterCrimes Happened=0</div>`)[0];
+            popup_6993aaa57e074ef59c4e0428633a9332.setContent(html_42f8bb27e861425cb8ab3325fad5d23e);
+        
+
+        circle_marker_6dc45e18e410494b8920e70878db93a5.bindPopup(popup_6993aaa57e074ef59c4e0428633a9332)
+        ;
+
+        
+    
+    
+            var circle_marker_a78ba782a2b94996acfa168541c4be52 = L.circleMarker(
+                [16.5139, 80.6293],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_09fa29d079fb428e8e8858d4029c468b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f3079b9ce074e6988cee448334b3c76 = $(`<div id="html_5f3079b9ce074e6988cee448334b3c76" style="width: 100.0%; height: 100.0%;">Governor PetaCrimes Happened=0</div>`)[0];
+            popup_09fa29d079fb428e8e8858d4029c468b.setContent(html_5f3079b9ce074e6988cee448334b3c76);
+        
+
+        circle_marker_a78ba782a2b94996acfa168541c4be52.bindPopup(popup_09fa29d079fb428e8e8858d4029c468b)
+        ;
+
+        
+    
+    
+            var circle_marker_5ca3274ad9cd4ad49791233d7a450772 = L.circleMarker(
+                [16.5419, 80.6294],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_10185ce76dd742c48ffdeb4eca25243b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4e7ed58ff2745989f336b6879049dae = $(`<div id="html_a4e7ed58ff2745989f336b6879049dae" style="width: 100.0%; height: 100.0%;">Nandamuri NagarCrimes Happened=0</div>`)[0];
+            popup_10185ce76dd742c48ffdeb4eca25243b.setContent(html_a4e7ed58ff2745989f336b6879049dae);
+        
+
+        circle_marker_5ca3274ad9cd4ad49791233d7a450772.bindPopup(popup_10185ce76dd742c48ffdeb4eca25243b)
+        ;
+
+        
+    
+    
+            var circle_marker_f29564588ca6411495d123b293d0b36c = L.circleMarker(
+                [16.509, 80.648],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_93bbaafc814d48948f194f411b54f77e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5492def6c0e747f98ff171b715ba4af1 = $(`<div id="html_5492def6c0e747f98ff171b715ba4af1" style="width: 100.0%; height: 100.0%;">ChristurajupuramCrimes Happened=0</div>`)[0];
+            popup_93bbaafc814d48948f194f411b54f77e.setContent(html_5492def6c0e747f98ff171b715ba4af1);
+        
+
+        circle_marker_f29564588ca6411495d123b293d0b36c.bindPopup(popup_93bbaafc814d48948f194f411b54f77e)
+        ;
+
+        
+    
+    
+            var circle_marker_4fec78e60d6a4190b66baf4e64618672 = L.circleMarker(
+                [16.5308, 80.5987],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_02287ff55042499c9b663f362a71afc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_610ac88a87eb42308f529d6f8cb23c4d = $(`<div id="html_610ac88a87eb42308f529d6f8cb23c4d" style="width: 100.0%; height: 100.0%;">ChittinagarCrimes Happened=0</div>`)[0];
+            popup_02287ff55042499c9b663f362a71afc1.setContent(html_610ac88a87eb42308f529d6f8cb23c4d);
+        
+
+        circle_marker_4fec78e60d6a4190b66baf4e64618672.bindPopup(popup_02287ff55042499c9b663f362a71afc1)
+        ;
+
+        
+    
+    
+            var circle_marker_d098a1e32b9c43e79c688352f929eee2 = L.circleMarker(
+                [16.5262, 80.6264],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_0967b432c7634928a32ff81c4bae165c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d00061c2e3f044d991108943aebfde80 = $(`<div id="html_d00061c2e3f044d991108943aebfde80" style="width: 100.0%; height: 100.0%;">Kedareswar PetCrimes Happened=0</div>`)[0];
+            popup_0967b432c7634928a32ff81c4bae165c.setContent(html_d00061c2e3f044d991108943aebfde80);
+        
+
+        circle_marker_d098a1e32b9c43e79c688352f929eee2.bindPopup(popup_0967b432c7634928a32ff81c4bae165c)
+        ;
+
+        
+    
+    
+            var circle_marker_e63f676e50104b748d2a05cf3bb284b7 = L.circleMarker(
+                [16.5337, 80.5992],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_8af06d88d4a44be1b3f2713304138016 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_902f0cc30dd14656b5d6a3e0d187feb8 = $(`<div id="html_902f0cc30dd14656b5d6a3e0d187feb8" style="width: 100.0%; height: 100.0%;">BhavanipuramCrimes Happened=0</div>`)[0];
+            popup_8af06d88d4a44be1b3f2713304138016.setContent(html_902f0cc30dd14656b5d6a3e0d187feb8);
+        
+
+        circle_marker_e63f676e50104b748d2a05cf3bb284b7.bindPopup(popup_8af06d88d4a44be1b3f2713304138016)
+        ;
+
+        
+    
+    
+            var circle_marker_e28fc4e31e7243d5ad4aec3a8eb3b867 = L.circleMarker(
+                [16.495, 80.6618],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_02525869d379475fb6bab02475eb8445 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_223cf1fdcc2741e28f76a0c75e3846f4 = $(`<div id="html_223cf1fdcc2741e28f76a0c75e3846f4" style="width: 100.0%; height: 100.0%;">PatamataCrimes Happened=0</div>`)[0];
+            popup_02525869d379475fb6bab02475eb8445.setContent(html_223cf1fdcc2741e28f76a0c75e3846f4);
+        
+
+        circle_marker_e28fc4e31e7243d5ad4aec3a8eb3b867.bindPopup(popup_02525869d379475fb6bab02475eb8445)
+        ;
+
+        
+    
+    
+            var circle_marker_73d7309de6bf4cb995e4d2437a48bd16 = L.circleMarker(
+                [16.5418, 80.6076],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_14b3ed0ccd8b4338a6aa73ff626143a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efa386b4ea394ffeaf763cfe4d9aee2e = $(`<div id="html_efa386b4ea394ffeaf763cfe4d9aee2e" style="width: 100.0%; height: 100.0%;">KabelaCrimes Happened=0</div>`)[0];
+            popup_14b3ed0ccd8b4338a6aa73ff626143a9.setContent(html_efa386b4ea394ffeaf763cfe4d9aee2e);
+        
+
+        circle_marker_73d7309de6bf4cb995e4d2437a48bd16.bindPopup(popup_14b3ed0ccd8b4338a6aa73ff626143a9)
+        ;
+
+        
+    
+    
+            var circle_marker_b5ec718d057e479ebb958cb5dd8ff3f2 = L.circleMarker(
+                [16.5047, 80.6667],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_7ada81d8d04547d68d9f897a393daeed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4245a602fc7f4a959d1e939ca2aa2995 = $(`<div id="html_4245a602fc7f4a959d1e939ca2aa2995" style="width: 100.0%; height: 100.0%;">Gurnanak ColonyCrimes Happened=0</div>`)[0];
+            popup_7ada81d8d04547d68d9f897a393daeed.setContent(html_4245a602fc7f4a959d1e939ca2aa2995);
+        
+
+        circle_marker_b5ec718d057e479ebb958cb5dd8ff3f2.bindPopup(popup_7ada81d8d04547d68d9f897a393daeed)
+        ;
+
+        
+    
+    
+            var circle_marker_e870c76f350c4c3bb754d0d7e8f080ad = L.circleMarker(
+                [16.5193, 80.6522],
+                {"bubblingMouseEvents": true, "color": "#7e03ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_c53899b18c3e449abf49e0dc16c1291e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86a7c0d19ddb492a8cecf0cd0f751b0d = $(`<div id="html_86a7c0d19ddb492a8cecf0cd0f751b0d" style="width: 100.0%; height: 100.0%;">MachavaramCrimes Happened=0</div>`)[0];
+            popup_c53899b18c3e449abf49e0dc16c1291e.setContent(html_86a7c0d19ddb492a8cecf0cd0f751b0d);
+        
+
+        circle_marker_e870c76f350c4c3bb754d0d7e8f080ad.bindPopup(popup_c53899b18c3e449abf49e0dc16c1291e)
+        ;
+
+        
+    
+    
+            var circle_marker_8f674817828145bd94a63126dea0e558 = L.circleMarker(
+                [16.5062, 80.6225],
+                {"bubblingMouseEvents": true, "color": "#7e03ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_cabe0d8867b141c18d2c9c41fbfc9d64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_851e4f851b2b4b91ac11d3f391c8b14a = $(`<div id="html_851e4f851b2b4b91ac11d3f391c8b14a" style="width: 100.0%; height: 100.0%;">KrishnalankaCrimes Happened=0</div>`)[0];
+            popup_cabe0d8867b141c18d2c9c41fbfc9d64.setContent(html_851e4f851b2b4b91ac11d3f391c8b14a);
+        
+
+        circle_marker_8f674817828145bd94a63126dea0e558.bindPopup(popup_cabe0d8867b141c18d2c9c41fbfc9d64)
+        ;
+
+        
+    
+    
+            var circle_marker_2571bad812274a93b98f55ccc9f31794 = L.circleMarker(
+                [16.4655, 80.719],
+                {"bubblingMouseEvents": true, "color": "#7e03ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_7c4f3f9d6abb4c16928df4f720ca386a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03dd4d3df9ba423d8cb860175272fbe9 = $(`<div id="html_03dd4d3df9ba423d8cb860175272fbe9" style="width: 100.0%; height: 100.0%;">PenamaluruCrimes Happened=0</div>`)[0];
+            popup_7c4f3f9d6abb4c16928df4f720ca386a.setContent(html_03dd4d3df9ba423d8cb860175272fbe9);
+        
+
+        circle_marker_2571bad812274a93b98f55ccc9f31794.bindPopup(popup_7c4f3f9d6abb4c16928df4f720ca386a)
+        ;
+
+        
+    
+    
+            var circle_marker_8449033031e1447588e8d624dfbe78ad = L.circleMarker(
+                [16.5076, 80.6667],
+                {"bubblingMouseEvents": true, "color": "#7e03ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_77b7dcd1a48f4bf7aa0891e7a00cb0f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b0d77d3974c4722b9cfdcfbede1c397 = $(`<div id="html_9b0d77d3974c4722b9cfdcfbede1c397" style="width: 100.0%; height: 100.0%;">Bharathi NagarCrimes Happened=0</div>`)[0];
+            popup_77b7dcd1a48f4bf7aa0891e7a00cb0f3.setContent(html_9b0d77d3974c4722b9cfdcfbede1c397);
+        
+
+        circle_marker_8449033031e1447588e8d624dfbe78ad.bindPopup(popup_77b7dcd1a48f4bf7aa0891e7a00cb0f3)
+        ;
+
+        
+    
+    
+            var circle_marker_5782e75b76fa4aef91f7f5df09509448 = L.circleMarker(
+                [16.5197, 80.6258],
+                {"bubblingMouseEvents": true, "color": "#7e03ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_d1e3cc34f80a46bc852e32c60a2c5f17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81885f5752da4a918b7fe895260ecadc = $(`<div id="html_81885f5752da4a918b7fe895260ecadc" style="width: 100.0%; height: 100.0%;">Gandhi NagarCrimes Happened=0</div>`)[0];
+            popup_d1e3cc34f80a46bc852e32c60a2c5f17.setContent(html_81885f5752da4a918b7fe895260ecadc);
+        
+
+        circle_marker_5782e75b76fa4aef91f7f5df09509448.bindPopup(popup_d1e3cc34f80a46bc852e32c60a2c5f17)
+        ;
+
+        
+    
+    
+            var circle_marker_6ba87f5a74e94cefaef5018e0068a562 = L.circleMarker(
+                [16.5089, 80.6553],
+                {"bubblingMouseEvents": true, "color": "#7e03ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_ccb8c4d26b2249e19864ff5538ba473a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a069f61e450e45d79ee23421cd5c23b0 = $(`<div id="html_a069f61e450e45d79ee23421cd5c23b0" style="width: 100.0%; height: 100.0%;">LIC ColonyCrimes Happened=0</div>`)[0];
+            popup_ccb8c4d26b2249e19864ff5538ba473a.setContent(html_a069f61e450e45d79ee23421cd5c23b0);
+        
+
+        circle_marker_6ba87f5a74e94cefaef5018e0068a562.bindPopup(popup_ccb8c4d26b2249e19864ff5538ba473a)
+        ;
+
+        
+    
+    
+            var circle_marker_698afc06e8bf4c9fadeb35036d01c6e8 = L.circleMarker(
+                [16.4762, 80.7069],
+                {"bubblingMouseEvents": true, "color": "#7e03ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_920a7a1fe6054ec6a730cf49db8fe33a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_539a3180a35d45669423731870b845e3 = $(`<div id="html_539a3180a35d45669423731870b845e3" style="width: 100.0%; height: 100.0%;">PorankiCrimes Happened=0</div>`)[0];
+            popup_920a7a1fe6054ec6a730cf49db8fe33a.setContent(html_539a3180a35d45669423731870b845e3);
+        
+
+        circle_marker_698afc06e8bf4c9fadeb35036d01c6e8.bindPopup(popup_920a7a1fe6054ec6a730cf49db8fe33a)
+        ;
+
+        
+    
+    
+            var circle_marker_a1507cf4997544598bc2a55d15b38c6b = L.circleMarker(
+                [16.512, 80.6418],
+                {"bubblingMouseEvents": true, "color": "#7e03ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_5aa31e34521c4ac3b843260d96af1cfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27992d5a9f1d4b619482b525517a69fe = $(`<div id="html_27992d5a9f1d4b619482b525517a69fe" style="width: 100.0%; height: 100.0%;">Sitaram PuramCrimes Happened=0</div>`)[0];
+            popup_5aa31e34521c4ac3b843260d96af1cfd.setContent(html_27992d5a9f1d4b619482b525517a69fe);
+        
+
+        circle_marker_a1507cf4997544598bc2a55d15b38c6b.bindPopup(popup_5aa31e34521c4ac3b843260d96af1cfd)
+        ;
+
+        
+    
+    
+            var circle_marker_8ba87d0e93b8400da3792b0a09e49982 = L.circleMarker(
+                [16.5169, 80.6833],
+                {"bubblingMouseEvents": true, "color": "#7e03ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_392fb393a4124e64957ab5886f3ed9da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5842cedf7964d769a77581e1f482b98 = $(`<div id="html_d5842cedf7964d769a77581e1f482b98" style="width: 100.0%; height: 100.0%;">Currency nagarCrimes Happened=0</div>`)[0];
+            popup_392fb393a4124e64957ab5886f3ed9da.setContent(html_d5842cedf7964d769a77581e1f482b98);
+        
+
+        circle_marker_8ba87d0e93b8400da3792b0a09e49982.bindPopup(popup_392fb393a4124e64957ab5886f3ed9da)
+        ;
+
+        
+    
+    
+            var circle_marker_7d7bc86188984cd4b06b48bd4fb2e558 = L.circleMarker(
+                [16.5196, 80.6896],
+                {"bubblingMouseEvents": true, "color": "#7e03ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_bcc41517be6e4eb8a0eead2f6efc37e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e063d5385e034b499d9fd084c1f2f166 = $(`<div id="html_e063d5385e034b499d9fd084c1f2f166" style="width: 100.0%; height: 100.0%;">PrasadampaduCrimes Happened=0</div>`)[0];
+            popup_bcc41517be6e4eb8a0eead2f6efc37e0.setContent(html_e063d5385e034b499d9fd084c1f2f166);
+        
+
+        circle_marker_7d7bc86188984cd4b06b48bd4fb2e558.bindPopup(popup_bcc41517be6e4eb8a0eead2f6efc37e0)
+        ;
+
+        
+    
+    
+            var circle_marker_7d86076f6eb44973966884b569300326 = L.circleMarker(
+                [16.5378, 80.6396],
+                {"bubblingMouseEvents": true, "color": "#7e03ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_0caf1d3a0f0b4e18b5913711dcd4247c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a68d98ac59eb49fd80bbe19a96e516fc = $(`<div id="html_a68d98ac59eb49fd80bbe19a96e516fc" style="width: 100.0%; height: 100.0%;">Ajit Singh NagarCrimes Happened=0</div>`)[0];
+            popup_0caf1d3a0f0b4e18b5913711dcd4247c.setContent(html_a68d98ac59eb49fd80bbe19a96e516fc);
+        
+
+        circle_marker_7d86076f6eb44973966884b569300326.bindPopup(popup_0caf1d3a0f0b4e18b5913711dcd4247c)
+        ;
+
+        
+    
+    
+            var circle_marker_5e3437a60e9c4614baef49beb9d006a5 = L.circleMarker(
+                [16.5168, 80.6453],
+                {"bubblingMouseEvents": true, "color": "#7e03ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_83a8fd3993a1482694cb35916f7309a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7445aec40fcc4f269abf5a644e171826 = $(`<div id="html_7445aec40fcc4f269abf5a644e171826" style="width: 100.0%; height: 100.0%;">Maruthi nagarCrimes Happened=0</div>`)[0];
+            popup_83a8fd3993a1482694cb35916f7309a3.setContent(html_7445aec40fcc4f269abf5a644e171826);
+        
+
+        circle_marker_5e3437a60e9c4614baef49beb9d006a5.bindPopup(popup_83a8fd3993a1482694cb35916f7309a3)
+        ;
+
+        
+    
+    
+            var circle_marker_b73eb56bf9334383a5d4e28220444644 = L.circleMarker(
+                [16.5274, 80.6408],
+                {"bubblingMouseEvents": true, "color": "#7c06ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_27bfdec8fa224a0385e049f8e96ce8f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c9403474865436db9a4120e6321c448 = $(`<div id="html_1c9403474865436db9a4120e6321c448" style="width: 100.0%; height: 100.0%;">Teachers ColonyCrimes Happened=0</div>`)[0];
+            popup_27bfdec8fa224a0385e049f8e96ce8f6.setContent(html_1c9403474865436db9a4120e6321c448);
+        
+
+        circle_marker_b73eb56bf9334383a5d4e28220444644.bindPopup(popup_27bfdec8fa224a0385e049f8e96ce8f6)
+        ;
+
+        
+    
+    
+            var circle_marker_19df06bfef0a4d0aaa629459b8d65214 = L.circleMarker(
+                [16.506, 80.6415],
+                {"bubblingMouseEvents": true, "color": "#7c06ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_ae1582a0aa4745fda9f9a600359d172f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9c6915df9464f11adb5335aa70f3bc9 = $(`<div id="html_c9c6915df9464f11adb5335aa70f3bc9" style="width: 100.0%; height: 100.0%;">MoghalrajpuramCrimes Happened=0</div>`)[0];
+            popup_ae1582a0aa4745fda9f9a600359d172f.setContent(html_c9c6915df9464f11adb5335aa70f3bc9);
+        
+
+        circle_marker_19df06bfef0a4d0aaa629459b8d65214.bindPopup(popup_ae1582a0aa4745fda9f9a600359d172f)
+        ;
+
+        
+    
+    
+            var circle_marker_86cbb184a1154bff991522e6f87a3b20 = L.circleMarker(
+                [16.5062, 80.648],
+                {"bubblingMouseEvents": true, "color": "#7c06ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_9561930ad4ee4981b9cf206ef916722b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85be1520328b420e9f765d8f33c3b449 = $(`<div id="html_85be1520328b420e9f765d8f33c3b449" style="width: 100.0%; height: 100.0%;">KesarapalleCrimes Happened=0</div>`)[0];
+            popup_9561930ad4ee4981b9cf206ef916722b.setContent(html_85be1520328b420e9f765d8f33c3b449);
+        
+
+        circle_marker_86cbb184a1154bff991522e6f87a3b20.bindPopup(popup_9561930ad4ee4981b9cf206ef916722b)
+        ;
+
+        
+    
+    
+            var circle_marker_9a95b9f346aa422ebc5b03eca4064179 = L.circleMarker(
+                [16.5385, 80.7982],
+                {"bubblingMouseEvents": true, "color": "#7c06ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_63182a81f7d9420e8321cdfc49e95856 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8e0794e011d45178efc1fba2d1777ee = $(`<div id="html_a8e0794e011d45178efc1fba2d1777ee" style="width: 100.0%; height: 100.0%;">GannavaramCrimes Happened=0</div>`)[0];
+            popup_63182a81f7d9420e8321cdfc49e95856.setContent(html_a8e0794e011d45178efc1fba2d1777ee);
+        
+
+        circle_marker_9a95b9f346aa422ebc5b03eca4064179.bindPopup(popup_63182a81f7d9420e8321cdfc49e95856)
+        ;
+
+        
+    
+    
+            var circle_marker_cff4b6ff7c8b442aa88503ce339392d1 = L.circleMarker(
+                [16.5233, 80.6688],
+                {"bubblingMouseEvents": true, "color": "#7c06ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_4b09bc9ac1be470999d8639962d8814c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86e373939c5549a2af605b76b5663cb8 = $(`<div id="html_86e373939c5549a2af605b76b5663cb8" style="width: 100.0%; height: 100.0%;">GunadalaCrimes Happened=0</div>`)[0];
+            popup_4b09bc9ac1be470999d8639962d8814c.setContent(html_86e373939c5549a2af605b76b5663cb8);
+        
+
+        circle_marker_cff4b6ff7c8b442aa88503ce339392d1.bindPopup(popup_4b09bc9ac1be470999d8639962d8814c)
+        ;
+
+        
+    
+    
+            var circle_marker_e62f111282494d399ef385f0c03ec460 = L.circleMarker(
+                [16.4836, 80.6843],
+                {"bubblingMouseEvents": true, "color": "#7c06ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_46964b67ac524a1db581e2227d2c0116 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02ad1b322ce247b3ae4be1c8f91f9bc9 = $(`<div id="html_02ad1b322ce247b3ae4be1c8f91f9bc9" style="width: 100.0%; height: 100.0%;">Ashok NagarCrimes Happened=0</div>`)[0];
+            popup_46964b67ac524a1db581e2227d2c0116.setContent(html_02ad1b322ce247b3ae4be1c8f91f9bc9);
+        
+
+        circle_marker_e62f111282494d399ef385f0c03ec460.bindPopup(popup_46964b67ac524a1db581e2227d2c0116)
+        ;
+
+        
+    
+    
+            var circle_marker_36b52133df6d469fb80775cd1b8e7894 = L.circleMarker(
+                [16.5206, 80.6404],
+                {"bubblingMouseEvents": true, "color": "#7c06ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_30ba7b550fae4746a7312220714a9644 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05260892aae7422e8881aaa81f67b937 = $(`<div id="html_05260892aae7422e8881aaa81f67b937" style="width: 100.0%; height: 100.0%;">DurgapuramCrimes Happened=0</div>`)[0];
+            popup_30ba7b550fae4746a7312220714a9644.setContent(html_05260892aae7422e8881aaa81f67b937);
+        
+
+        circle_marker_36b52133df6d469fb80775cd1b8e7894.bindPopup(popup_30ba7b550fae4746a7312220714a9644)
+        ;
+
+        
+    
+    
+            var circle_marker_e9066a433acb405a8c9e5a40ae3eb0e4 = L.circleMarker(
+                [16.5504, 80.6493],
+                {"bubblingMouseEvents": true, "color": "#7c06ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_6e11ee9c2ece4f78b707a4a58047d233 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c3dbf9144b7488f8a3eb150e3371287 = $(`<div id="html_6c3dbf9144b7488f8a3eb150e3371287" style="width: 100.0%; height: 100.0%;">PayakaPuramCrimes Happened=0</div>`)[0];
+            popup_6e11ee9c2ece4f78b707a4a58047d233.setContent(html_6c3dbf9144b7488f8a3eb150e3371287);
+        
+
+        circle_marker_e9066a433acb405a8c9e5a40ae3eb0e4.bindPopup(popup_6e11ee9c2ece4f78b707a4a58047d233)
+        ;
+
+        
+    
+    
+            var circle_marker_9075e404599944baae87da87b3eb3180 = L.circleMarker(
+                [16.5236, 80.6153],
+                {"bubblingMouseEvents": true, "color": "#7c06ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_9bc650d0a70f44feb78669a633eee068 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f683105083f4b4ea2cb9f021480903e = $(`<div id="html_0f683105083f4b4ea2cb9f021480903e" style="width: 100.0%; height: 100.0%;">KothapetCrimes Happened=0</div>`)[0];
+            popup_9bc650d0a70f44feb78669a633eee068.setContent(html_0f683105083f4b4ea2cb9f021480903e);
+        
+
+        circle_marker_9075e404599944baae87da87b3eb3180.bindPopup(popup_9bc650d0a70f44feb78669a633eee068)
+        ;
+
+        
+    
+    
+            var circle_marker_4f07981898b0443ebe6a1263652b5b28 = L.circleMarker(
+                [16.6055, 80.3786],
+                {"bubblingMouseEvents": true, "color": "#7c06ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_ad20e8c49d6149068020557a47404bc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9561fe0881764e508ccfeebe16cabdc9 = $(`<div id="html_9561fe0881764e508ccfeebe16cabdc9" style="width: 100.0%; height: 100.0%;">IbrahimpatnamCrimes Happened=0</div>`)[0];
+            popup_ad20e8c49d6149068020557a47404bc8.setContent(html_9561fe0881764e508ccfeebe16cabdc9);
+        
+
+        circle_marker_4f07981898b0443ebe6a1263652b5b28.bindPopup(popup_ad20e8c49d6149068020557a47404bc8)
+        ;
+
+        
+    
+    
+            var circle_marker_90c43c27e3544a9c9103d4049a94c5f3 = L.circleMarker(
+                [16.4782, 80.6757],
+                {"bubblingMouseEvents": true, "color": "#7c06ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_f964bd52f6524889bb0ce1796b2de57a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a84959b03b1a459a91de11d00a0ed1b1 = $(`<div id="html_a84959b03b1a459a91de11d00a0ed1b1" style="width: 100.0%; height: 100.0%;">YanamalakuduruCrimes Happened=0</div>`)[0];
+            popup_f964bd52f6524889bb0ce1796b2de57a.setContent(html_a84959b03b1a459a91de11d00a0ed1b1);
+        
+
+        circle_marker_90c43c27e3544a9c9103d4049a94c5f3.bindPopup(popup_f964bd52f6524889bb0ce1796b2de57a)
+        ;
+
+        
+    
+    
+            var circle_marker_6c0e34e8de4e407e98a26ed2082063e0 = L.circleMarker(
+                [16.5033, 80.6389],
+                {"bubblingMouseEvents": true, "color": "#7c06ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_83bfc70050ca4c7d8334b2aeb75c99f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6b6585d77794192ab9018e1fbb7a2e3 = $(`<div id="html_b6b6585d77794192ab9018e1fbb7a2e3" style="width: 100.0%; height: 100.0%;">LabbipetCrimes Happened=0</div>`)[0];
+            popup_83bfc70050ca4c7d8334b2aeb75c99f6.setContent(html_b6b6585d77794192ab9018e1fbb7a2e3);
+        
+
+        circle_marker_6c0e34e8de4e407e98a26ed2082063e0.bindPopup(popup_83bfc70050ca4c7d8334b2aeb75c99f6)
+        ;
+
+        
+    
+    
+            var circle_marker_119b9f4c2ff44aa6a7407db806a22c88 = L.circleMarker(
+                [16.5017, 80.6779],
+                {"bubblingMouseEvents": true, "color": "#7a09ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_38ffc862a50e416390c4eb9eb619b030 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0657e82ada2d48b49d45536c652830d5 = $(`<div id="html_0657e82ada2d48b49d45536c652830d5" style="width: 100.0%; height: 100.0%;">AutoNagarCrimes Happened=0</div>`)[0];
+            popup_38ffc862a50e416390c4eb9eb619b030.setContent(html_0657e82ada2d48b49d45536c652830d5);
+        
+
+        circle_marker_119b9f4c2ff44aa6a7407db806a22c88.bindPopup(popup_38ffc862a50e416390c4eb9eb619b030)
+        ;
+
+        
+    
+    
+            var circle_marker_5fb479f9fea14fb692c09f9cabf1e1be = L.circleMarker(
+                [16.5256, 80.6843],
+                {"bubblingMouseEvents": true, "color": "#7a09ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8e5ddb5ec67245a1b61c1ee1fe58cdbe);
+        
+    
+        var popup_2b55f41e1cbd43dca9d1d0ca393c88dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_243d875ca06547778cef53676f7ae099 = $(`<div id="html_243d875ca06547778cef53676f7ae099" style="width: 100.0%; height: 100.0%;">RamavarapaduCrimes Happened=0</div>`)[0];
+            popup_2b55f41e1cbd43dca9d1d0ca393c88dd.setContent(html_243d875ca06547778cef53676f7ae099);
+        
+
+        circle_marker_5fb479f9fea14fb692c09f9cabf1e1be.bindPopup(popup_2b55f41e1cbd43dca9d1d0ca393c88dd)
+        ;
+
+        
+    
+</script>
